@@ -50,3 +50,14 @@ python3 manage.py import_lemmas
 ```bash
 python3 manage.py runserver
 ```
+
+## Cite as
+
+
+```bibtex
+@misc{oai:it.cnr:prodotti:468339,
+	title = {IMAGO Annotation Tool},
+	author = {Pratelli N. and Bartalesi V. and Lenzi E.},
+	year = {2022}
+}
+```
