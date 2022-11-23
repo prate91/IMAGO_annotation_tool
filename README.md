@@ -55,9 +55,11 @@ python3 manage.py runserver
 
 
 ```bibtex
-@misc{oai:it.cnr:prodotti:468339,
+@online{imagoAnnotatioTool,
 	title = {IMAGO Annotation Tool},
-	author = {Pratelli N. and Bartalesi V. and Lenzi E.},
-	year = {2022}
+	author = {Nicol\`o Pratelli and Valentina Bartalesi and Emanuele Lenzi},
+	year = {2022},
+	url = {https://github.com/prate91/IMAGO\_annotation\_tool},
+	urldate = {2022-11-23}
 }
 ```
