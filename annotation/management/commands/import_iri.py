@@ -15,7 +15,7 @@ AREA_PATH = os.path.join(BASE_DIR, 'json/genres.json')
 # AUTHOR_PATH = os.path.join(BASE_DIR, 'json/authors.json')
 # SOURCE_PATH = os.path.join(BASE_DIR, 'json/sources.json')
 # CHARACTER_PATH = os.path.join(BASE_DIR, 'json/characters.json')
-PLACE_PATH = os.path.join(BASE_DIR, 'json/place_complete_2.json')
+PLACE_PATH = os.path.join(BASE_DIR, 'json/places.json')
 LIBRARY_PATH = os.path.join(BASE_DIR, 'json/libraries.json')
 
 # COMMENTARY_PATH = os.path.join(BASE_DIR, 'json/commentaries.json')

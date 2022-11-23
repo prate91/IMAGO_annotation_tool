@@ -1,1 +1,6178 @@
-{"IOHANNES DE PLANO CARPINI": {"name": "IOHANNES DE PLANO CARPINI", "alias": ["GIOVANNI DA PIAN DEL CARPINE"], "iri": "http://www.wikidata.org/entity/Q315149"}, "ADAM CREMONENSIS": {"name": "ADAM CREMONENSIS", "alias": ["ADAMO DA CREMONA"], "iri": "http://www.wikidata.org/entity/Q120132"}}
+{
+	"Adam Cremonensis": {
+		"name": "Adam Cremonensis",
+		"alias": ["Adamo da Cremona"],
+		"irim": "http://www.mirabileweb.it/author/adam-cremonensis-saec-xiii-author/24110",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1228"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Adamnanus Hyensis": {
+		"name": "Adamnanus Hyensis",
+		"alias": ["Adamnano di Iona", "Adamnanus Hiiensis"],
+		"iri": "http://www.wikidata.org/entity/Q120132",
+		"irim": "http://www.mirabileweb.it/author/adamnanus-hiiensis-abbas-n-623-624-m-23-9-704-author/19202",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "623"
+                    },
+                    "dataFine": {
+                        "data": "627"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "704-09-23"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Anselmus Adurnus": {
+		"name": "Anselmus Adurnus",
+		"alias": ["Giovanni Adorno"],
+		"iri": "http://www.wikidata.org/entity/Q91122360",
+		"irim": "http://www.mirabileweb.it/author/iohannes-adornes-n-1444-m-1511-author/28286",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1444-08-08"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1511-05-10"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Aethicus Istricus": {
+		"name": "Aethicus Istricus",
+		"alias": ["Etico Istro", "Aethicus Philosophus", "Aethicus Ister"],
+		"iri": "http://www.wikidata.org/entity/Q225857",
+		"irim": "http://www.mirabileweb.it/author/aethicus-ister-saec-viii-med--author/21203",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": true,
+                "dataInizio": {
+                    "data": "701"
+                },
+                "dataFine": {
+                    "data": "800"
+                }
+            }
+        }
+	},
+	"Albertus Aquensis": {
+		"name": "Albertus Aquensis",
+		"alias": ["Alberto di Aquisgrana"],
+		"iri": "http://www.wikidata.org/entity/Q4323",
+		"irim": "http://www.mirabileweb.it/author/albertus-aquensis-canonicus-fl-saec-xii-ante-med--author/19417",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1060"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1120"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Albertus Bohemus": {
+		"name": "Albertus Bohemus",
+		"alias": ["Albert von Behaim"],
+		"iri": "http://www.wikidata.org/entity/Q2637611",
+		"irim": "http://www.mirabileweb.it/author/albertus-bohemus-n-1180-ca-m-1260-author/20516",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1180"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1258"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Albertus de Bonstetten": {
+		"name": "Albertus de Bonstetten",
+		"alias": ["Albrecht von Bonstetten"],
+		"iri": "http://www.wikidata.org/entity/Q1683081",
+		"irim": "http://www.mirabileweb.it/author/albertus-de-bonstetten-n-1442-1443-m-16-2-1509-author/23818",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1442"
+                    },
+                    "dataFine": {
+                        "data": "1443"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1509-02-16"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Albertus Stadensis": {
+		"name": "Albertus Stadensis",
+		"alias": ["Alberto di Stade"],
+		"iri": "http://www.wikidata.org/entity/Q471392",
+		"irim": "http://www.mirabileweb.it/author/albertus-stadensis-abbas-n-saec-xii-ex-m-1256-1261-author/19943",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": true,
+                    "dataInizio": {
+                        "data": "1175"
+                    },
+                    "dataFine": {
+                        "data": "1200"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1261"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Leo Baptista Albertus": {
+		"name": "Leo Baptista Albertus",
+		"alias": ["Leon Battista Alberti"],
+		"iri": "http://www.wikidata.org/entity/Q182046",
+		"irim": "http://www.mirabileweb.it/author/leo-baptista-albertus-n-18-2-1404-m-19-25-4-1472-author/22503",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1404"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1472"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Georgius Alte": {
+		"name": "Georgius Alte",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/georgius-alte-n-1450-ca-m-28-7-1510-author/220018",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1450"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1510"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Petrus Amelii de Brenaco": {
+		"name": "Petrus Amelii de Brenaco",
+		"alias": ["Pietro Ameli"],
+		"iri": "http://www.wikidata.org/entity/Q29212944",
+		"irim": "http://www.mirabileweb.it/author/petrus-amelii-de-brenaco-n-1340-ca-m-ante-7-6-1401-author/26044",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1340"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1401-06-07"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Andreas Perusinus": {
+		"name": "Andreas Perusinus",
+		"alias": ["Andrea da Perugia","Andreas de Perusio", "Cambaliensis episcopus"],
+		"iri": "http://www.wikidata.org/entity/Q3616135",
+		"irim": "http://www.mirabileweb.it/author/andreas-iannis-de-perusio-op-v-1297-m-1319-1322-author/33971",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1332"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            },
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1307"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+        }
+	},
+	"Boschinus de Angleria": {
+		"name": "Boschinus de Angleria",
+		"alias": ["Boschino d'Anghiera"],
+		"irim": "http://www.mirabileweb.it/author/boschinus-de-angleria-fl-1432-1433-author/224416",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1473"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            },
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1432"
+				},
+				"dataFine": {
+					"data": "1433"
+				}
+			}
+        }
+	},
+	"Anonymus Leidensis": {
+		"name": "Anonymus Leidensis",
+		"alias": ["Anonimo di Leida"],
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "848"
+                    },
+                    "dataFine": {
+                        "data": "873"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Anonymus Mediolanensis": {
+		"name": "Anonymus Mediolanensis",
+		"alias": ["Anonimo Milanese"],
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "998"
+				},
+				"dataFine": {
+					"data": "1018"
+				}
+			}
+		}
+	},
+	"Anonymus Ravennas ": {
+		"name": "Anonymus Ravennas ",
+		"alias": ["Anonimo Ravennate", "Geografo Ravennate", "Geographus Ravennas"],
+		"iri": "http://www.wikidata.org/entity/Q15634526",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": true,
+                    "dataInizio": {
+                        "data": "601"
+                    },
+                    "dataFine": {
+                        "data": "700"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Anonymus Suessionensis": {
+		"name": "Anonymus Suessionensis",
+		"alias": ["Anonimo di Soissons"],
+		"datazione":{
+			"vescovo":{
+				"incertezza": true,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1207"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Anselmus Remensis": {
+		"name": "Anselmus Remensis",
+		"alias": ["Anselmo di Reims", "Anselmo Remense"],
+		"iri": "http://www.wikidata.org/entity/Q102574856",
+		"irim": "http://www.mirabileweb.it/author/anselmus-remensis-monachus-fl-1049-1056-author/20996",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1049"
+				},
+				"dataFine": {
+					"data": "1056"
+				}
+			}
+		}
+	},
+	"Alexander Ariostus": {
+		"name": "Alexander Ariostus",
+		"alias": ["Alessandro Ariosto"],
+		"iri": "http://www.wikidata.org/entity/Q61472297",
+		"irim": "http://www.mirabileweb.it/author/alexander-ariostus-de-bononia-fl-1462-1482-m-post--author/41892",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": true,
+                    "dataInizio": {
+                        "data": "1401"
+                    },
+                    "dataFine": {
+                        "data": "1450"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1485"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Hieronymus Balbus": {
+		"name": "Hieronymus Balbus",
+		"alias": ["Girolamo Balbi"],
+		"iri": "http://www.wikidata.org/entity/Q673596",
+		"irim": "http://www.mirabileweb.it/author/hieronymus-balbus-n-post-1450-m-post-1530-author/24274",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1450"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1530"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Balcus": {
+		"name": "Balcus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/balcus-saec-xv-xvi-author/37683",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": true,
+				"dataInizio": {
+					"data": "1401"
+				},
+				"dataFine": {
+					"data": "1500"
+				}
+			}
+		}
+	},
+	"Baldericus Burgulianus": {
+		"name": "Baldericus Burgulianus",
+		"alias": ["Baudri de Bourgueil","Baldericus Burguliensis", "Baldericus Andegavensis", "Baldericus Dolensis"],
+		"iri": "http://www.wikidata.org/entity/Q804774",
+		"irim": "http://www.mirabileweb.it/author/baldericus-burgulianus-abbas-n-1046-m-1130-author/19694",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1046"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1130"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Bartholomaeus Anglicus": {
+		"name": "Bartholomaeus Anglicus",
+		"alias": ["Bartolomeo Anglico"],
+		"iri": "http://www.wikidata.org/entity/Q809312",
+		"irim": "http://www.mirabileweb.it/author/bartholomaeus-anglicus-v-1225-m-1250-ca--author/19375",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1200"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1272"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Thomas Basinus": {
+		"name": "Thomas Basinus",
+		"alias": ["Thomas Basin"],
+		"iri": "http://www.wikidata.org/entity/Q3524892",
+		"irim": "http://www.mirabileweb.it/author/thomas-basinus-n-1412-ca-m-30-12-1491-author/22786",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1412"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1491-12-30"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Bartholomeus de Baygueris": {
+		"name": "Bartholomeus de Baygueris",
+		"alias": ["Bartolomeo Bayguera"],
+		"irim": "http://www.mirabileweb.it/author/bartholomaeus-bayguera-n-1380-ca-m-post-30-6-1458-author/39199",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1380"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1458"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Henricus Bebelius Iustingensis": {
+		"name": "Henricus Bebelius Iustingensis",
+		"alias": ["Henrich Bebel"],
+		"iri": "http://www.wikidata.org/entity/Q454824",
+		"irim": "http://www.mirabileweb.it/author/henricus-bebelius-iustingensis-n-1473-m-31-3-1518-author/22831",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1472"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1518-03-31"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Beda Venerabilis": {
+		"name": "Beda Venerabilis",
+		"alias": ["Beda il Venerabile"],
+		"iri": "http://www.wikidata.org/entity/Q154938",
+		"irim": "http://www.mirabileweb.it/author/beda-venerabilis-n-672-673-ca-m-26-5-735-author/19243",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "672"
+                    },
+                    "dataFine": {
+                        "data": "673"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "735"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Belardus de Esculo": {
+		"name": "Belardus de Esculo",
+		"alias": ["Belardo d'Ascoli"],
+		"irim": "http://www.mirabileweb.it/author/belardus-de-esculo-fl-saec-xii-ante-med--author/24885",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": true,
+				"dataInizio": {
+					"data": "1101"
+				},
+				"dataFine": {
+					"data": "1150"
+				}
+			}
+		}
+	},
+	"Bernardus Bembus": {
+		"name": "Bernardus Bembus",
+		"alias": ["Bernardo Bembo"],
+		"iri": "http://www.wikidata.org/entity/Q462026",
+		"irim": "http://www.mirabileweb.it/author/bernardus-bembus-n-19-10-1433-m-28-5-1519-author/23502",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1433-10-19"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1519-05-28"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Benedictus Polonus": {
+		"name": "Benedictus Polonus",
+		"alias": ["Benedetto Polacco", "Benedykt Polak"],
+		"iri": "http://www.wikidata.org/entity/Q816911",
+		"irim": "http://www.mirabileweb.it/author/benedictus-polonus-fl-1245-author/23556",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1245"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Beniaminus Tudelensis": {
+		"name": "Beniaminus Tudelensis",
+		"alias": ["Beniamino di Tudela"],
+		"iri": "http://www.wikidata.org/entity/Q318820",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1130"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1173"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Bernardus monachus": {
+		"name": "Bernardus monachus",
+		"alias": ["Bernardo il Monaco", "Bernardo il Saggio", "Bernardus Savius", "Bernardus Francus"],
+		"iri": "http://www.wikidata.org/entity/Q2898857",
+		"irim": "http://www.mirabileweb.it/author/bernardus-francus-monachus-v-866-870-author/23747",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "866"
+				},
+				"dataFine": {
+					"data": "870"
+				}
+			}
+		}
+	},
+	"Flavius Blondus": {
+		"name": "Flavius Blondus",
+		"alias": ["Flavio Biondo"],
+		"iri": "http://www.wikidata.org/entity/Q434834",
+		"irim": "http://www.mirabileweb.it/author/blondus-flavius-n-1392-m-4-6-1463-author/22648",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1392"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1463"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Iohannes Boccaccius": {
+		"name": "Iohannes Boccaccius",
+		"alias": ["Giovanni Boccaccio"],
+		"iri": "http://www.wikidata.org/entity/Q60323093",
+		"irim": "http://www.mirabileweb.it/author/iohannes-boccaccius-n-1313-m-21-12-1375-author/22366",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1313"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1375"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Christophorus Bondelmontius": {
+		"name": "Christophorus Bondelmontius",
+		"alias": ["Cristoforo Buondelmonti"],
+		"iri": "http://www.wikidata.org/entity/Q1140453",
+		"irim": "http://www.mirabileweb.it/author/christophorus-bondelmontius-n-1385-ca-m-post-1430-author/22278",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1385"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1430"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Hieronymus Bononius Tarvisinus": {
+		"name": "Hieronymus Bononius Tarvisinus",
+		"alias": ["Girolamo Bologni"],
+		"iri": "http://www.wikidata.org/entity/Q29375850",
+		"irim": "http://www.mirabileweb.it/author/hieronymus-bononius-tarvisinus-n-1454-m-23-9-1517-author/23448",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1454"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1517-09-23"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Virgilius Bornadus de Brixia": {
+		"name": "Virgilius Bornadus de Brixia",
+		"alias": ["Virgilio Bornati"],
+		"irim": "http://www.mirabileweb.it/author/virgilius-bornadus-n-30-6-1427-m-post-28-1-1460-author/31780",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1427-06-30"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Amadeus Boverius": {
+		"name": "Amadeus Boverius",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/amadeus-boverii-fl-saec-xv-ante-med--author/26870",
+		"datazione":{}
+	},
+	"Iacobus Bracellus": {
+		"name": "Iacobus Bracellus",
+		"alias": ["Giacomo Bracelli"],
+		"iri": "http://www.wikidata.org/entity/Q3762141",
+		"irim": "http://www.mirabileweb.it/author/iacobus-bracellus-n-1390-m-1466-author/23176",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1390"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1466"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Bernardus de Breydenbach": {
+		"name": "Bernardus de Breydenbach",
+		"alias": ["Bernhard von Breydenbach"],
+		"iri": "http://www.wikidata.org/entity/Q328688",
+		"irim": "http://www.mirabileweb.it/author/bernardus-de-breydenbach-n-1440-ca-m-5-5-1497-author/26182",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1440"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1497-05-05"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Thomas Briggius": {
+		"name": "Thomas Briggius",
+		"alias": ["Thomas Brygg"],
+		"irim": "http://www.mirabileweb.it/author/thomas-brygg-fl-1392-1393-author/24492",
+		"datazione":{
+            "floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1392"
+				},
+				"dataFine": {
+					"data": "1393"
+				}
+			}
+        }
+	},
+	"Leonardus Brunus": {
+		"name": "Leonardus Brunus",
+		"alias": ["Leonardo Bruni", "Leonardus Aretinus", "Leonardus Brunus Aretinus"],
+		"iri": "http://www.wikidata.org/entity/Q314488",
+		"irim": "http://www.mirabileweb.it/author/leonardus-brunus-n-1370-ca-m-9-3-1444-author/22505",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1370"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1444"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Philippus Brusserius Savonensis": {
+		"name": "Philippus Brusserius Savonensis",
+		"alias": ["Filippo Brusseri"],
+		"irim": "http://www.mirabileweb.it/author/philippus-brusserius-n-1260-ca-m-1340-author/24817",
+		"datazione":{
+			"vescovo":{
+				"incertezza": true,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1340"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Burchardus Argentinensis": {
+		"name": "Burchardus Argentinensis",
+		"alias": ["Burcardo di Strasburgo","Burchard von Strassburg"],
+		"irim": "http://www.mirabileweb.it/author/burchardus-argentinensis-vicedominus-v-1175-author/42006",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1175"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Burchardus de Monte Sion": {
+		"name": "Burchardus de Monte Sion",
+		"alias": ["Burcardo del Monte Sion", "Burchardus Theutonicus"],
+		"iri": "http://www.wikidata.org/entity/Q4998199",
+		"irim": "http://www.mirabileweb.it/author/burchardus-de-monte-sion-fl-1271-1295-author/21236",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1271"
+				},
+				"dataFine": {
+					"data": "1295"
+				}
+			}
+		}
+	},
+	"Iohannes Antonius Campanus": {
+		"name": "Iohannes Antonius Campanus",
+		"alias": ["Giovanni Antonio Campano"],
+		"iri": "http://www.wikidata.org/entity/Q5563673",
+		"irim": "http://www.mirabileweb.it/author/iohannes-antonius-campanus-n-1429-m-15-7-1477-author/23309",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1429-02-27"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1477-07-15"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Opicinus de Canistris": {
+		"name": "Opicinus de Canistris",
+		"alias": ["Opicino de' Canistris"],
+		"iri": "http://www.wikidata.org/entity/Q3354174",
+		"irim": "http://www.mirabileweb.it/author/opicinus-de-canistris-n-24-12-1296-m-1350-1352-author/22046",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1296-12-24"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1350"
+                    },
+                    "dataFine": {
+                        "data": "1352"
+                    }
+                }
+            }
+        }
+	},
+	"Guillelmus Caoursinus": {
+		"name": "Guillelmus Caoursinus",
+		"alias": ["Guillaume Caoursin"],
+		"irim": "http://www.mirabileweb.it/author/guillelmus-caoursin-n-1430-ca-m-1501-ca--author/23317",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1430"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1501"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Bonaventura de Castello": {
+		"name": "Bonaventura de Castello",
+		"alias": ["Bonaventura Castelli"],
+		"iri": "http://www.wikidata.org/entity/Q87193345",
+		"irim": "http://www.mirabileweb.it/author/bonaventura-de-castello-n-1300-1310-m-ante-1353-author/40019",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1300"
+                    },
+                    "dataFine": {
+                        "data": "1310"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": true,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1353"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Conradus Celtis": {
+		"name": "Conradus Celtis",
+		"alias": ["Conrad Celtes"],
+		"iri": "http://www.wikidata.org/entity/Q60625",
+		"irim": "http://www.mirabileweb.it/author/conradus-celtis-n-1-2-1459-m-4-2-1508-author/22861",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1459-02-01"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1508-02-04"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Conradus Coci de Wimpina": {
+		"name": "Conradus Coci de Wimpina",
+		"alias": ["Konrad Koch"],
+		"iri": "http://www.wikidata.org/entity/Q69253",
+		"irim": "http://www.mirabileweb.it/author/conradus-coci-de-wimpina-n-1460-1465-m-16-6-1531-author/222403",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1460"
+                    },
+                    "dataFine": {
+                        "data": "1465"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1531-06-16"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Christophorus Columbus": {
+		"name": "Christophorus Columbus",
+		"alias": ["Cristoforo Colombo"],
+		"iri": "http://www.wikidata.org/entity/Q7322",
+		"irim": "http://www.mirabileweb.it/author/christophorus-columbus-n-1451-m-19-5-1506-author/22363",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1451"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1506"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Nicolaus de Comitibus": {
+		"name": "Nicolaus de Comitibus",
+		"alias": ["Niccolò de' Conti"],
+		"iri": "http://www.wikidata.org/entity/Q442610",
+		"irim": "http://www.mirabileweb.it/author/nicolaus-de-comitibus-n-1395-ca-m-1469-author/23263",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1395"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1469"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Constabulus": {
+		"name": "Constabulus",
+		"alias": ["Costa ben Luca", "Qusta ibn Luqa"],
+		"iri": "http://www.wikidata.org/entity/Q1621474",
+		"irim": "http://www.mirabileweb.it/author/costa-ben-luca-n-820-m-912-author/19906",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "820"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "912"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Domnius de Cranchis": {
+		"name": "Domnius de Cranchis",
+		"alias": ["Dujam Hranković", "Dujam Krančić", "Dujam Kranković", "Dodinusì de Cranchis", "Domnus de Cranchis", "Doymus de Cranchis"],
+		"irim": "http://www.mirabileweb.it/author/domnius-de-cranchis-fl-1405-m-1421-1422-author/30889",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1360"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1422"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Petrus de Curialtis": {
+		"name": "Petrus de Curialtis",
+		"alias": ["Pietro Curialti", "Pietro da Tussignano", "Petrus de Tussignano"],
+		"iri": "http://www.wikidata.org/entity/Q55226828",
+		"irim": "http://www.mirabileweb.it/author/petrus-de-tussignano-m-8-4-1407-author/23161",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1407-04-08"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            },
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1348"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+        }
+	},
+	"Cyriacus Anconitanus": {
+		"name": "Cyriacus Anconitanus",
+		"alias": ["Ciriaco d'Ancona", "Ciriaco de' Pizzicolli"],
+		"iri": "http://www.wikidata.org/entity/Q558074",
+		"irim": "http://www.mirabileweb.it/author/cyriacus-anconitanus-n-1391-m-1453-1455-author/22463",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1391"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1452"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Hubertus Decembrius": {
+		"name": "Hubertus Decembrius",
+		"alias": ["Uberto Decembrio"],
+		"iri": "http://www.wikidata.org/entity/Q670581",
+		"irim": "http://www.mirabileweb.it/author/hubertus-decembrius-n-saec-xiv-post-med-m-7-4-1427-author/26228",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1350"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1427"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Dermatius Hiberniensis": {
+		"name": "Dermatius Hiberniensis",
+		"alias": [],
+		"iri": "http://www.wikidata.org/entity/Q85512133",
+		"irim": "http://www.mirabileweb.it/author/dermatius-hiberniensis-fl-saec-xii-in--author/225667",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1100"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Philippus de Diversis de Quartigianis": {
+		"name": "Philippus de Diversis de Quartigianis",
+		"alias": ["Filippo Diversi"],
+		"iri": "http://www.wikidata.org/entity/Q97155869",
+		"irim": "http://www.mirabileweb.it/author/philippus-de-diversis-de-quartigianis-n-saec-xiv-e-author/32238",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1391"
+                    },
+                    "dataFine": {
+                        "data": "1400"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1441-10-22"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Dominicus Silvestri de Florentia": {
+		"name": "Dominicus Silvestri de Florentia",
+		"alias": ["Domenico di Silvestro"],
+		"iri": "http://www.wikidata.org/entity/Q99860787",
+		"irim": "http://www.mirabileweb.it/author/dominicus-silvestri-de-florentia-n-1335-ca-m-1411-author/24812",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1335"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1411"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Iohannes de Dondis ab Horologio": {
+		"name": "Iohannes de Dondis ab Horologio",
+		"alias": ["Giovanni Dondi dell'Orologio"],
+		"iri": "http://www.wikidata.org/entity/Q1296705",
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-dondis-ab-horologio-n-1330-ca-m-19-10--author/22340",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1330"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1388-10-19"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Dynamius Patricius": {
+		"name": "Dynamius Patricius",
+		"alias": ["Dinamio Agiografo"],
+		"iri": "https://www.wikidata.org/wiki/Q3042011",
+		"irim": "http://www.mirabileweb.it/author/dynamius-patricius-n-saec-vi-med-m-601-author/22039",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": true,
+                    "dataInizio": {
+                        "data": "525"
+                    },
+                    "dataFine": {
+                        "data": "575"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "601"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Georgius Emmerichius": {
+		"name": "Georgius Emmerichius",
+		"alias": ["Georg Hemmerich"],
+		"irim": "http://www.mirabileweb.it/author/georgius-emmerichius-n-1422-m-1507-author/29996",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1422"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1507-12-24"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Eucherius Lugdunensis": {
+		"name": "Eucherius Lugdunensis",
+		"alias": ["Eucherio di Lione"],
+		"iri": "http://www.wikidata.org/entity/Q671419",
+		"irim": "http://www.mirabileweb.it/author/eucherius-lugdunensis-episcopus-pseudo-author/42533",
+		"datazione":{}
+	},
+	"Felix Fabri": {
+		"name": "Felix Fabri",
+		"alias": [],
+		"iri": "http://www.wikidata.org/entity/Q70147",
+		"irim": "http://www.mirabileweb.it/author/felix-fabri-n-1438-m-23-3-1502-author/23598",
+		"datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1438"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1502-03-23"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Iohannes Fedanzola Perusinus": {
+		"name": "Iohannes Fedanzola Perusinus",
+		"alias": ["Giovanni Fedanzola"],
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-perusio-fl-1331-1342-author/29451",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1329"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Guillelmus Frederici": {
+		"name": "Guillelmus Frederici",
+		"alias": ["Willem Frederiks"],
+		"iri": "http://www.wikidata.org/entity/Q15729959",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-frederici-n-1455-ca-m-3-8-1527-author/41922",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1455"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1527"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Rorgus Fretellus de Nazareth": {
+		"name": "Rorgus Fretellus de Nazareth",
+		"alias": ["Rorgo Fretello di Nazareth", "Rorgo Fretellus"],
+		"iri": "http://www.wikidata.org/entity/Q85512217",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1119"
+				},
+				"dataFine": {
+					"data": "1154"
+				}
+			}
+		}
+	},
+	"Fridericus de Fulgineo": {
+		"name": "Fridericus de Fulgineo",
+		"alias": ["Federico Frezzi da Foligno"],
+		"iri": "http://www.wikidata.org/entity/Q2034402",
+		"irim": "http://www.mirabileweb.it/author/fridericus-de-fulgineo-op-fl-1312-1323-author/227832",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1346"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1416"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Fulcherius Carnotensis": {
+		"name": "Fulcherius Carnotensis",
+		"alias": ["Fulcherio di Chartres"],
+		"iri": "http://www.wikidata.org/entity/Q5630",
+		"irim": "http://www.mirabileweb.it/author/fulcherius-carnotensis-n-1058-ca-m-1127-1128-author/19300",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1058"
+					},
+					"dataFine": {
+						"data": "1059"
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1127"
+					},
+					"dataFine": {
+						"data": "1128"
+					}
+				}
+			}
+		}
+	},
+	"Gabrielis de Pechwarodino": {
+		"name": "Gabrielis de Pechwarodino",
+		"alias": ["Gabriel de Pécsvárad"],
+		"irim": "http://www.mirabileweb.it/author/gabriel-de-pécsvárad-v-1509-1525-author/31903",
+		"datazione":{}
+	},
+	"Antonius Galatheus": {
+		"name": "Antonius Galatheus",
+		"alias": ["Antonio De Ferrariis Galateo"],
+		"iri": "http://www.wikidata.org/entity/Q3619505",
+		"irim": "http://www.mirabileweb.it/author/antonius-galatheus-n-1444-1448-m-22-11-1517-author/22379",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1444"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1517-11-22"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Antonius Gallus": {
+		"name": "Antonius Gallus",
+		"alias": ["Antonio Gallo"],
+		"iri": "http://www.wikidata.org/entity/Q41569664",
+		"irim": "http://www.mirabileweb.it/author/antonius-gallus-n-1440-ca-m-1509-ca--author/23481",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1509"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Geographus Bavarus": {
+		"name": "Geographus Bavarus",
+		"alias": ["Geografo Bavarese"],
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "801"
+					},
+					"dataFine": {
+						"data": "900"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Alexander Geraldinus": {
+		"name": "Alexander Geraldinus",
+		"alias": ["Alessandro Geraldini"],
+		"iri": "http://www.wikidata.org/entity/Q3610043",
+		"irim": "http://www.mirabileweb.it/author/alexander-geraldinus-n-1455-m-8-3-1524-author/22388",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1455"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1524-03-08"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Gilo Parisiensis": {
+		"name": "Gilo Parisiensis",
+		"alias": ["Gilles di Parigi"],
+		"iri": "http://www.wikidata.org/entity/Q2360461",
+		"irim": "http://www.mirabileweb.it/author/gilo-parisiensis-clericus-m-1142-ca--author/19570",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1139"
+					},
+					"dataFine": {
+						"data": "1142"
+					}
+				}
+			}
+		}
+	},
+	"Giraldus Cambrensis": {
+		"name": "Giraldus Cambrensis",
+		"alias": ["Giraldo Cambrense", "Giraldo di Barri", "Giraldo del Galles"],
+		"iri": "http://www.wikidata.org/entity/Q357824",
+		"irim": "http://www.mirabileweb.it/author/giraldus-cambrensis-n-1145-1147-m-1223-ca--author/19549",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1145"
+					},
+					"dataFine": {
+						"data": "1147"
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1223"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guilielmus Gratorolus": {
+		"name": "Guilielmus Gratorolus",
+		"alias": ["Guglielmo Grataroli"],
+		"iri": "http://www.wikidata.org/entity/Q3778928",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1516-05-16"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1568-04-16"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Gregorius Terracinensis": {
+		"name": "Gregorius Terracinensis",
+		"alias": ["Gregorio da Terracina"],
+		"irim": "http://www.mirabileweb.it/author/gregorius-terracinensis-fl-saec-xi-ex-xii-in--author/33499",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1051"
+					},
+					"dataFine": {
+						"data": "1100"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1126"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Anglicus Grimoaldi": {
+		"name": "Anglicus Grimoaldi",
+		"alias": ["Anglic de Grimoard"],
+		"iri": "http://www.wikidata.org/entity/Q1528423",
+		"irim": "http://www.mirabileweb.it/author/anglicus-grimoaldi-cardinalis-n-1320-ca-m-13-18-4--author/22052",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1320"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1388-04-13"
+					},
+					"dataFine": {
+						"data": "1388-04-18"
+					}
+				}
+			}
+		}
+	},
+	"Gilbertus Grineus": {
+		"name": "Gilbertus Grineus",
+		"alias": ["Gilberto Grineo"],
+		"irim": "http://www.mirabileweb.it/author/gilbertus-grineus-n-1439-m-1501-author/26443",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1439"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1501"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guibertus Tornacensis ": {
+		"name": "Guibertus Tornacensis ",
+		"alias": ["Guibert de Tournai", "Guibertus de Tornaco", "Guibert van Doornik"],
+		"iri": "http://www.wikidata.org/entity/Q17485967",
+		"irim": "http://www.mirabileweb.it/author/guibertus-tornacensis-n-1200-ca-m-7-10-1284-author/19397",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1200"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1284-10-07"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Bernardus Guidonis": {
+		"name": "Bernardus Guidonis",
+		"alias": ["Bernardo Guidoni", "Bernardo Gui"],
+		"iri": "http://www.wikidata.org/entity/Q559219",
+		"irim": "http://www.mirabileweb.it/author/bernardus-guidonis-n-1261-1262-m-31-12-1331-author/20038",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1261"
+					},
+					"dataFine": {
+						"data": "1262"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1331-12-30"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guilielmus de Boldensele": {
+		"name": "Guilielmus de Boldensele",
+		"alias": ["Guillaume de Boldensele"],
+		"iri": "http://www.wikidata.org/entity/Q2575834",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-de-boldensele-m-1339-ca--author/22030",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1339"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus de Rubruc": {
+		"name": "Guillelmus de Rubruc",
+		"alias": ["Guglielmo di Rubruck", "Willem van Ruysbroeck", "Guillaume de Rubrouck"],
+		"iri": "http://www.wikidata.org/entity/Q316083",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-de-rubruc-n-1215-1220-m-1270-ca--author/20060",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1220"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1293"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus filius Stephani": {
+		"name": "Guillelmus filius Stephani",
+		"alias": ["William Fitzstephen"],
+		"iri": "http://www.wikidata.org/entity/Q12900170",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-filius-stephani-m-1190-1191-author/19898",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1190"
+					},
+					"dataFine": {
+						"data": "1191"
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus Gaudensis": {
+		"name": "Guillelmus Gaudensis",
+		"alias": ["Willem van Gouda", "Guillelmus de Gouda"],
+		"iri": "http://www.wikidata.org/entity/Q19209594",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-gaudensis-v-1437-author/29025",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1437"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Guillelmus Grandimontensis ": {
+		"name": "Guillelmus Grandimontensis ",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/guillelmus-grandimontensis-monachus-fl-post-1181-1-author/36168",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": true,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1181"
+				},
+				"dataFine": {
+					"data": "1198"
+				}
+			}
+		}
+	},
+	"Haytonus de Corycus": {
+		"name": "Haytonus de Corycus",
+		"alias": ["Hetʾum di Corycus", "Hetoum di Corycus", "Ayton di Corycus", "Antonius Curchinus"],
+		"iri": "http://www.wikidata.org/entity/Q966044",
+		"irim": "http://www.mirabileweb.it/author/haytonus-n-1235-1245-m-1314-ca--author/21518",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1235"
+					},
+					"dataFine": {
+						"data": "1240"
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1310"
+					},
+					"dataFine": {
+						"data": "1320"
+					}
+				}
+			}
+		}
+	},
+	"Henricus de Antwerpe": {
+		"name": "Henricus de Antwerpe",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/henricus-de-antwerpe-v-1217-1227-author/30737",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1217"
+				},
+				"dataFine": {
+					"data": "1227"
+				}
+			}
+		}
+	},
+	"Henricus de Glacz": {
+		"name": "Henricus de Glacz",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/henricus-de-glacz-ofm-v-1330-1340-author/242486",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1330"
+				},
+				"dataFine": {
+					"data": "1340"
+				}
+			}
+		}
+		
+	},
+	"Henricus de Gundelfingen": {
+		"name": "Henricus de Gundelfingen",
+		"alias": ["Heinrich von Gundelfingen"],
+		"iri": "http://www.wikidata.org/entity/Q50361782",
+		"irim": "http://www.mirabileweb.it/author/henricus-de-gundelfingen-n-1442-ca-m-29-8-1490-author/37257",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1442"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1490-08-29"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Hieronymus Cordubensis": {
+		"name": "Hieronymus Cordubensis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/hieronymus-cordubensis-canonicus-fl-saec-xv-author/242522",
+		"datazione":{}
+	},
+	"Hildebertus Cenomanensis": {
+		"name": "Hildebertus Cenomanensis",
+		"alias": ["Ildberto di Lavardin"],
+		"iri": "http://www.wikidata.org/entity/Q731681",
+		"irim": "http://www.mirabileweb.it/author/hildebertus-cenomanensis-episcopus-n-1056-m-18-12--author/19664",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1056"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1133-12-18"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Hugo de Sancto Victore": {
+		"name": "Hugo de Sancto Victore",
+		"alias": ["Ugo di San Vittore"],
+		"iri": "http://www.wikidata.org/entity/Q317554",
+		"irim": "http://www.mirabileweb.it/author/hugo-de-sancto-victore-n-1096-ca-m-11-2-1141-author/20289",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1096"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1141-02-11"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Humbertus de Divione": {
+		"name": "Humbertus de Divione",
+		"alias": ["Humbert de Dijon", "Humbertus Divionensis"],
+		"irim": "http://www.mirabileweb.it/author/humbertus-de-divione-fl-1332-author/28623",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1330"
+				},
+				"dataFine": {
+					"data": "1332"
+				}
+			}
+		}
+	},
+	"Hyacinthus presbyter": {
+		"name": "Hyacinthus presbyter",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/hyacinthus-presbyter-fl-saec-viii-circa-m--author/21743",
+		"datazione":{}
+	},
+	"Antonius Hyvanus Sarzanensis": {
+		"name": "Antonius Hyvanus Sarzanensis",
+		"alias": ["Antonio Ivani da Sarzana"],
+		"iri": "http://www.wikidata.org/entity/Q30434026",
+		"irim": "http://www.mirabileweb.it/author/antonius-hyvanus-sarzanensis-n-1430-ca-m-1482-author/22590",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1430"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1482"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iacobus de Vitriaco": {
+		"name": "Iacobus de Vitriaco",
+		"alias": ["Jacques de Vitry"],
+		"iri": "http://www.wikidata.org/entity/Q654608",
+		"irim": "http://www.mirabileweb.it/author/iacobus-de-vitriaco-n-1160-1170-m-1-5-1240-author/19277",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1170"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1240-05-01"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iacobus Veronensis": {
+		"name": "Iacobus Veronensis",
+		"alias": ["Jacopo da Verona"],
+		"iri": "http://www.wikidata.org/entity/Q3805968",
+		"irim": "http://www.mirabileweb.it/author/iacobus-de-verona-n-1290-ca-m-post-1345-author/22114",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1290"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1345"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Cermenate": {
+		"name": "Iohannes de Cermenate",
+		"alias": ["Giovanni da Cermenate"],
+		"iri": "http://www.wikidata.org/entity/Q16560226",
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-cermenate-n-1280-ca-m-1344-author/21864",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1280"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1344"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Galonifontibus": {
+		"name": "Iohannes de Galonifontibus",
+		"alias": ["Jean de Gaillefontaine"],
+		"iri": "http://www.wikidata.org/entity/Q4202451",
+		"irim": "http://www.mirabileweb.it/author/iohannes-sultaniensis-archiepiscopus-fl-1377-1410-author/26382",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1377"
+				},
+				"dataFine": {
+					"data": "1423"
+				}
+			}
+		}
+	},
+	"Iohannes de Mandavilla": {
+		"name": "Iohannes de Mandavilla",
+		"alias": ["Jean de Mandeville", "Iohannes Magdovillanus", "Iohannes Magnovillanus", "Iohannes de Sancto Albano"],
+		"iri": "http://www.wikidata.org/entity/Q24766",
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-mandeville-fl-1322-1356-author/23020",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1322"
+				},
+				"dataFine": {
+					"data": "1356"
+				}
+			}
+		}
+	},
+	"Iohannes de Meerhout": {
+		"name": "Iohannes de Meerhout",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-meerhout-m-1476-author/31276",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1399"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1476"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Plano Carpini": {
+		"name": "Iohannes de Plano Carpini",
+		"alias": ["Giovanni da Pian del Carpine"],
+		"iri": "http://www.wikidata.org/entity/Q315149",
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-plano-carpini-n-1190-ca-m-1250-ca--author/20314",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1182"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1252-08-01"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Sancto Homero": {
+		"name": "Iohannes de Sancto Homero",
+		"alias": ["Johannes von Sankt Omer", "Audomaro"],
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-sancto-omero-saec-xii-xiii-author/40150",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1276"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+		
+	},
+	"Iohannes Teuxburiensis": {
+		"name": "Iohannes Teuxburiensis",
+		"alias": ["John of Tewkesbury"],
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-tewkesbury-frater-m-post-1392-author/26429",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1351"
+				},
+				"dataFine": {
+					"data": "1392"
+				}
+			}
+		}
+	},
+	"Iohannes Wirzburgensis": {
+		"name": "Iohannes Wirzburgensis",
+		"alias": ["Johannes von Würzburg"],
+		"iri": "http://www.wikidata.org/entity/Q1698791",
+		"irim": "http://www.mirabileweb.it/author/iohannes-wirzburgensis-presbyter-fl-1160-1170-author/19422",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1160"
+				},
+				"dataFine": {
+					"data": "1170"
+				}
+			}
+		}
+	},
+	"Ionas Bobiensis": {
+		"name": "Ionas Bobiensis",
+		"alias": ["Giona di Bobbio"],
+		"iri": "http://www.wikidata.org/entity/Q280282",
+		"irim": "http://www.mirabileweb.it/author/ionas-bobiensis-fl-618-659-m-post-659-author/19471",
+		"datazione":{}
+	},
+	"Iulianus frater": {
+		"name": "Iulianus frater",
+		"alias": ["Frate Giuliano", "Iulianus Hungarus"],
+		"iri": "http://www.wikidata.org/entity/Q926849",
+		"irim": "http://www.mirabileweb.it/author/iulianus-hungarus-fl-1234-1237-author/22809",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1234"
+				},
+				"dataFine": {
+					"data": "1237"
+				}
+			}
+		}
+	},
+	"Petrus Franciscus Iustulus": {
+		"name": "Petrus Franciscus Iustulus",
+		"alias": ["Pier Francesco Giustolo"],
+		"iri": "http://www.wikidata.org/entity/Q55228370",
+		"irim": "http://www.mirabileweb.it/author/petrus-franciscus-iustulus-n-1440-1450-m-1510-1511-author/23449",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440"
+					},
+					"dataFine": {
+						"data": "1450"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1511"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Hermannus Knuyt de Slyterhoven": {
+		"name": "Hermannus Knuyt de Slyterhoven",
+		"alias": ["Hermann Knuyt van Slyterhoven"],
+		"irim": "http://www.mirabileweb.it/author/hermannus-knuyt-de-slyterhoven-v-1497-author/236065",
+		"datazione":{}
+	},
+	"Iohannes Lagenator de Francofordia": {
+		"name": "Iohannes Lagenator de Francofordia",
+		"alias": ["Johannes von Frankfurt", "Iohannes de Francfordia"],
+		"irim": "http://www.mirabileweb.it/author/iohannes-lagenator-de-francofordia-n-1380-ca-m-13--author/22399",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1380"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440-05-13"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Aegidius Li Muisis": {
+		"name": "Aegidius Li Muisis ",
+		"alias": ["Gilles Li Muisis", "Gilles Le Muiset", "Aegidius Mucidus"],
+		"iri": "http://www.wikidata.org/entity/Q735826",
+		"irim": "http://www.mirabileweb.it/author/aegidius-li-muisis-n-1271-1272-m-15-10-1353-author/20039",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1272"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1353-10-15"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Ludolphus de Sudheim ": {
+		"name": "Ludolphus de Sudheim ",
+		"alias": ["Ludolfo di Sudheim", "Ludolfo di Suchen","Ludolfo di Suthen", "Ludolf von Suchem", "Ludolf von Sudheim"],
+		"iri": "http://www.wikidata.org/entity/Q103940",
+		"irim": "http://www.mirabileweb.it/author/ludolphus-de-sudheim-fl-1350-ca--author/22134",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1336"
+				},
+				"dataFine": {
+					"data": "1350"
+				}
+			}
+		}
+	},
+	"Ludovicus de Rupe Cavardi": {
+		"name": "Ludovicus de Rupe Cavardi",
+		"alias": ["Louis de Rochechouard"],
+		"irim": "http://www.mirabileweb.it/author/ludovicus-de-rupe-cavardi-n-1433-1434-m-1495-1496-author/28625",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1505"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1462"
+				},
+				"dataFine": {
+					"data": "1492"
+				}
+			}
+		}
+	},
+	"Ludovicus de Varthema": {
+		"name": "Ludovicus de Varthema",
+		"alias": ["Ludovico di Varthema", "Ludovicus Vertomannus"],
+		"iri": "http://www.wikidata.org/entity/Q375804",
+		"irim": "http://www.mirabileweb.it/author/ludovicus-varthema-v-1503-m-1517-ca--author/229583",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1470"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1517"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes Lupus de Palaciis Rubeis": {
+		"name": "Iohannes Lupus de Palaciis Rubeis",
+		"alias": ["Juan Lopez de Palacios Rubios"],
+		"iri": "http://www.wikidata.org/entity/Q2892551",
+		"irim": "http://www.mirabileweb.it/author/iohannes-lupus-de-palaciis-rubeis-n-1450-ca-m-1525-author/23926",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1450"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1524"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Dominicus Machnaeus": {
+		"name": "Dominicus Machnaeus",
+		"alias": ["Domenico Macaneo"],
+		"irim": "http://www.mirabileweb.it/author/dominicus-machnaeus-n-1466-ca-m-1530-ca--author/226361",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1466"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1530"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Marianus de Florentia": {
+		"name": "Marianus de Florentia",
+		"alias": ["Mariano di Firenze"],
+		"iri": "http://www.wikidata.org/entity/Q43222686",
+		"irim": "http://www.mirabileweb.it/author/marianus-de-florentia-n-1477-ca-m-20-7-1523-author/31301",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1477"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1523-07-20"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Marignollis": {
+		"name": "Iohannes de Marignollis",
+		"alias": ["Giovanni de' Marignolli"],
+		"iri": "http://www.wikidata.org/entity/Q1362183",
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-marignollis-fl-1339-1354-m-1358-1359-author/21413",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1275"
+					},
+					"dataFine": {
+						"data": "1300"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1358-07-01"
+					},
+					"dataFine": {
+						"data": "1359-03-31"
+					}
+				}
+			}
+		}
+	},
+	"Marinus de Fregeno": {
+		"name": "Marinus de Fregeno",
+		"alias": ["Marino di Fregeno"],
+		"iri": "http://www.wikidata.org/entity/Q1898595",
+		"irim": "http://www.mirabileweb.it/author/marinus-de-fregeno-v-1457-m-7-7-1482-author/23008",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1401"
+					},
+					"dataFine": {
+						"data": "1450"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1482-07-07"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Nicolaus de Marthono": {
+		"name": "Nicolaus de Marthono",
+		"alias": ["Nicola de Martoni"],
+		"iri": "http://www.wikidata.org/entity/Q21548674",
+		"irim": "http://www.mirabileweb.it/author/nicolaus-de-marthono-fl-saec-xiv-post-med--author/22115",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": true,
+				"dataInizio": {
+					"data": "1351"
+				},
+				"dataFine": {
+					"data": "1400"
+				}
+			}
+		}
+	},
+	"Matthaeus Parisiensis": {
+		"name": "Matthaeus Parisiensis",
+		"alias": ["Matteo di Parigi"],
+		"iri": "http://www.wikidata.org/entity/Q369366",
+		"irim": "http://www.mirabileweb.it/author/matthaeus-parisiensis-n-1195-ca-m-1259-ca--author/19195",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1195"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1259"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Frater Mauritius": {
+		"name": "Frater Mauritius",
+		"alias": [],
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": true,
+				"dataInizio": {
+					"data": "1201"
+				},
+				"dataFine": {
+					"data": "1300"
+				}
+			}
+		}
+	},
+	"Hieronymus Monetarius": {
+		"name": "Hieronymus Monetarius",
+		"alias": ["Hieronymus Münzer"],
+		"iri": "http://www.wikidata.org/entity/Q71569",
+		"irim": "http://www.mirabileweb.it/author/hieronymus-monetarius-n-1437-m-27-8-1508-author/22844",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1437"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1508-08-27"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Bartholomaeus Montagnana": {
+		"name": "Bartholomaeus Montagnana",
+		"alias": ["Bartolomeo Montagnana", "Bartholomaeus de Montagnana"],
+		"irim": "http://www.mirabileweb.it/author/bartholomaeus-de-montagnana-n-1380-ca-m-1452-ca--author/23335",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1380"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1452"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Bartholomaeus Moronus": {
+		"name": "Bartholomaeus Moronus",
+		"alias": ["Bartolomeo Morone"],
+		"iri": "http://www.wikidata.org/entity/Q21548256",
+		"irim": "http://www.mirabileweb.it/author/bartholomaeus-moronus-n-27-9-1392-m-8-9-1461-author/41520",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1392-09-27"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1461-09-08"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes de Mussis": {
+		"name": "Iohannes de Mussis",
+		"alias": ["Giovanni de' Mussi"],
+		"irim": "http://www.mirabileweb.it/author/iohannes-de-mussis-v-1362-m-post-1406-author/22768",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1406"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1362"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Augustinus Nettuccius": {
+		"name": "Augustinus Nettuccius",
+		"alias": ["Agostino Vespucci","Agostino Nettucci"],
+		"iri": "http://www.wikidata.org/entity/Q2827101",
+		"irim": "http://www.mirabileweb.it/author/augustinus-nettuccius-v-1491-1541-author/241376",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1491"
+				},
+				"dataFine": {
+					"data": "1541"
+				}
+			}
+		}
+	},
+	"Nicolaus Nicolus": {
+		"name": "Nicolaus Nicolus",
+		"alias": ["Niccolò Niccoli", "Nicolaus Nicolai", "Nicolaus de Nicoli"],
+		"iri": "http://www.wikidata.org/entity/Q730505",
+		"irim": "http://www.mirabileweb.it/author/nicolaus-nicolai-n-1365-ca-m-22-1-1437-author/23196",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1365"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1437-01-22"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Nicolaus Botruntinensis": {
+		"name": "Nicolaus Botruntinensis",
+		"alias": ["Nicola di Ligny", "Nicola di Butrinto"],
+		"irim": "http://www.mirabileweb.it/author/nicolaus-botruntinensis-episcopus-v-1310-m-1-3-131-author/31621",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1316-03-01"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1310"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Nicolaus de Rosenberg": {
+		"name": "Nicolaus de Rosenberg",
+		"alias": ["Nikolaus von Rosenberg"],
+		"irim": "http://www.mirabileweb.it/author/nicolaus-de-rosenberg-n-1450-ca-m-1506-ca--author/22499",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1450"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1506"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Odo de Diogilo": {
+		"name": "Odo de Diogilo",
+		"alias": ["Edes de Deuil"],
+		"iri": "http://www.wikidata.org/entity/Q5626",
+		"irim": "http://www.mirabileweb.it/author/odo-de-diogilo-n-1100-m-8-4-1162-author/19916",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1101"
+					},
+					"dataFine": {
+						"data": "1125"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1162-04-08"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Odoricus de Portu Naonis": {
+		"name": "Odoricus de Portu Naonis",
+		"alias": ["Odorico da Pordenone"],
+		"iri": "http://www.wikidata.org/entity/Q379733",
+		"irim": "http://www.mirabileweb.it/author/odoricus-de-portu-naonis-ofm-n-1265-ca-m-14-1-1331-author/19778",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1280"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1331-01-14"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Oliverius Coloniensis": {
+		"name": "Oliverius Coloniensis",
+		"alias": ["Oliviero da Colonia"],
+		"irim": "http://www.mirabileweb.it/author/oliverius-coloniensis-scholasticus-n-1170-ca-m-122-author/21831",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1170"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1227"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Opus sine auctore": {
+		"name": "Opus sine auctore",
+		"alias": ["Opera senza autore"],
+		"iri": "http://www.wikidata.org/entity/Q4233718",
+		"datazione":{}
+	},
+	"Anonymus alemannus": {
+		"name": "Anonymus alemannus",
+		"alias": [],
+		"datazione":{}
+	},
+	"Anonimus Einsildensis": {
+		"name": "Anonimus Einsildensis",
+		"alias": [],
+		"datazione":{}
+	},
+	"Bernardus Oricellarius": {
+		"name": "Bernardus Oricellarius",
+		"alias": ["Bernardo Rucellai"],
+		"iri": "http://www.wikidata.org/entity/Q823033",
+		"irim": "http://www.mirabileweb.it/author/bernardus-oricellarius-n-1448-m-1514-author/22803",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1448"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1514"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Palladius Niger": {
+		"name": "Palladius Niger",
+		"alias": ["Palladio Negri", "Palladius Fuscus"],
+		"iri": "http://www.wikidata.org/entity/Q21855643",
+		"irim": "http://www.mirabileweb.it/author/palladius-fuscus-n-1445-ca-m-1520-author/26214",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1450"
+					},
+					"dataFine": {
+						"data": "1460"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1520-10-17"
+					},
+					"dataFine": {
+						"data": "1520-10-18"
+					}
+				}
+			}
+		}
+	},
+	"Iohannes Antonius Pantheus": {
+		"name": "Iohannes Antonius Pantheus",
+		"alias": ["Giovanni Antonio Panteo"],
+		"iri": "http://www.wikidata.org/entity/Q60978825",
+		"irim": "http://www.mirabileweb.it/author/iohannes-antonius-pantheus-n-1446-m-1497-author/24031",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1497"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus Paulus Paravicinus": {
+		"name": "Petrus Paulus Paravicinus",
+		"alias": ["Pietro Paolo Paravicini", "Pietro Paolo Paravicino"],
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1501"
+					},
+					"dataFine": {
+						"data": "1600"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Paschalis de Victoria": {
+		"name": "Paschalis de Victoria",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/paschalis-de-victoria-v-1333-m-1339-author/24414",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1251"
+					},
+					"dataFine": {
+						"data": "1300"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1339"
+					},
+					"dataFine": {
+						"data": "1340"
+					}
+				}
+			}
+		}
+	},
+	"Ludovicus Pasinus": {
+		"name": "Ludovicus Pasinus",
+		"alias": ["Ludovico Pasini"],
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1500"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1557"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Hieronymus Paulus": {
+		"name": "Hieronymus Paulus",
+		"alias": ["Jeroni Pau"],
+		"iri": "http://www.wikidata.org/entity/Q3825351",
+		"irim": "http://www.mirabileweb.it/author/hieronymus-paulus-barcinonensis-m-1497-author/24482",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1458"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1497"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Paulus Sanctoninus ": {
+		"name": "Paulus Sanctoninus ",
+		"alias": ["Paolo Santonino", "Paulus de Sanctoninis"],
+		"iri": "http://www.wikidata.org/entity/Q2050434",
+		"irim": "http://www.mirabileweb.it/author/paulus-sanctoninus-fl-1469-1494-m-ante-1510-author/26374",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": true,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1510"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1469"
+				},
+				"dataFine": {
+					"data": "1494"
+				}
+			}
+		}
+	},
+	"Franciscus Petrarcha": {
+		"name": "Franciscus Petrarcha", 
+		"alias": ["Francesco Petrarca"], 
+		"iri": "http://www.wikidata.org/entity/Q1401", 
+		"irim": "http://www.mirabileweb.it/author/franciscus-petrarcha-n-20-7-1304-m-19-7-1374-author/22318",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1304-07-20"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1374-07-19"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus Blesensis": {
+		"name": "Petrus Blesensis",
+		"alias": ["Pietro di Blois", "Pierre de Blois"],
+		"iri": "http://www.wikidata.org/entity/Q926670",
+		"irim": "http://www.mirabileweb.it/author/petrus-blesensis-n-1135-ca-m-post-1212-author/19180",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1135"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1212"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus de Dusburg": {
+		"name": "Petrus de Dusburg",
+		"alias": ["Pietro di Duisburg", "Peter von Dusburg"],
+		"iri": "http://www.wikidata.org/entity/Q708107",
+		"irim": "http://www.mirabileweb.it/author/petrus-de-dusburg-v-1326-author/23173",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1250"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1326"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus de Ebulo": {
+		"name": "Petrus de Ebulo",
+		"alias": ["Pietro da Eboli"],
+		"iri": "http://www.wikidata.org/entity/Q707723",
+		"irim": "http://www.mirabileweb.it/author/petrus-de-ebulo-n-1160-ca-m-1220-1221-author/20749",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1150"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1203"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus de Pennis": {
+		"name": "Petrus de Pennis",
+		"alias": ["Pietro da Penne", "Petrus Aprutinus", "Petrus de Penna", "Pierre de Penna"],
+		"irim": "http://www.mirabileweb.it/author/petrus-de-pennis-saec-xiv-author/26247",
+		"datazione":{
+			"floruit":{
+				"incertezza": true,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1330"
+				},
+				"dataFine": {
+					"data": "1342"
+				}
+			}
+		}
+	},
+	"Petrus Diaconus": {
+		"name": "Petrus Diaconus",
+		"alias": ["Pietro Diacono"],
+		"iri": "http://www.wikidata.org/entity/Q2080968",
+		"irim": "http://www.mirabileweb.it/author/petrus-diaconus-casinensis-monachus-n-1107-1110-m--author/19571",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1107"
+					},
+					"dataFine": {
+						"data": "1110"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1159"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Philippus de Eleemosyna": {
+		"name": "Philippus de Eleemosyna",
+		"alias": ["Filippo di Harveng", "Filippo di Bonne-Espérance"],
+		"iri": "http://www.wikidata.org/entity/Q1058040",
+		"irim": "http://www.mirabileweb.it/author/philippus-de-eleemosyna-abbas-m-1170-1171-author/23134",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1170"
+					},
+					"dataFine": {
+						"data": "1183"
+					}
+				}
+			}
+		}
+	},
+	"Philippus de Slane Hibernicus": {
+		"name": "Philippus de Slane Hibernicus",
+		"alias": ["Filippo di Slane", "Philip de Slane"],
+		"iri": "http://www.wikidata.org/entity/Q18813330",
+		"irim": "http://www.mirabileweb.it/author/philippus-de-slane-hibernicus-fl-1309-1326-author/20763",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1309"
+				},
+				"dataFine": {
+					"data": "1326"
+				}
+			}
+		}
+	},
+	"Aimericus Picaudus": {
+		"name": "Aimericus Picaudus",
+		"alias": ["Aimery Picaus"],
+		"iri": "http://www.wikidata.org/entity/Q405594",
+		"irim": "http://www.mirabileweb.it/author/aimericus-picaudus-presbyter-fl-1140-1160-author/24844",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1140"
+				},
+				"dataFine": {
+					"data": "1160"
+				}
+			}
+		}
+	},
+	"Franciscus Pipinus": {
+		"name": "Franciscus Pipinus",
+		"alias": ["Francesco Pipino"],
+		"iri": "http://www.wikidata.org/entity/Q3750473",
+		"irim": "http://www.mirabileweb.it/author/franciscus-pipinus-n-1270-ca-m-1327-1328-author/20207",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1270"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1327"
+					},
+					"dataFine": {
+						"data": "1328"
+					}
+				}
+			}
+		}
+	},
+	"Aeneas Silvius Piccolomini": {
+		"name": "Aeneas Silvius Piccolomini",
+		"alias": ["Enea Silvio Piccolomini", "Pio II", "Pius secundus"],
+		"iri": "http://www.wikidata.org/entity/Q101437",
+		"irim": "http://www.mirabileweb.it/author/pius-ii-papa-n-18-10-1405-m-14-15-8-1464-author/22283",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1405-10-08"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1464-08-14"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Angelus Politianus": {
+		"name": "Angelus Politianus",
+		"alias": ["Angelo Poliziano", "Angelo Ambrogini"],
+		"iri": "http://www.wikidata.org/entity/Q250414",
+		"irim": "http://www.mirabileweb.it/author/angelus-politianus-n-14-7-1454-m-1494-author/22372",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1454-07-14"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1494-09-29"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iohannes Poloner": {
+		"name": "Iohannes Poloner",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/iohannes-poloner-fl-1421-1422-m-1440-ca--author/31327",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1421"
+				},
+				"dataFine": {
+					"data": "1422"
+				}
+			}
+		}
+	},
+	"Iulius Pomponius Laetus": {
+		"name": "Iulius Pomponius Laetus",
+		"alias": ["Giulio Pomponio Leto"],
+		"iri": "http://www.wikidata.org/entity/Q523923",
+		"irim": "http://www.mirabileweb.it/author/iulius-pomponius-laetus-n-1427-1428-m-9-6-1498-author/22573",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1428"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1498-06-09"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Ioannes Iovianus Pontanus": {
+		"name": "Ioannes Iovianus Pontanus",
+		"alias": ["Giovanni Pontano"],
+		"iri": "http://www.wikidata.org/entity/Q714946",
+		"irim": "http://www.mirabileweb.it/author/iohannes-iovianus-pontanus-n-7-5-1422-1429-m-1503-author/22320",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1429-05-07"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1503-09-17"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Radulphus de Coggeshall": {
+		"name": "Radulphus de Coggeshall",
+		"alias": ["Ralph of Coggeshall"],
+		"iri": "http://www.wikidata.org/entity/Q721636",
+		"irim": "http://www.mirabileweb.it/author/radulphus-de-coggeshall-abbas-m-1228-ca--author/21171",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1228"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Radulphus de Frammelsberg": {
+		"name": "Radulphus de Frammelsberg",
+		"alias": ["Rudolph von Frameynsberg"],
+		"irim": "http://www.mirabileweb.it/author/radulphus-de-frammelsberg-v-1346-author/31995",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1346"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Radulphus Niger": {
+		"name": "Radulphus Niger",
+		"alias": ["Rodolfo il Nero", "Ralph Niger"],
+		"iri": "http://www.wikidata.org/entity/Q2126785",
+		"irim": "http://www.mirabileweb.it/author/radulphus-niger-n-ante-1146-m-1200-ca--author/19811",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1160"
+				},
+				"dataFine": {
+					"data": "1210"
+				}
+			}
+		}
+	},
+	"Antonius de Reboldis ": {
+		"name": "Antonius de Reboldis",
+		"alias": ["Antonio de’ Reboldi", "Antonio da Cremona", "Antonius de Cremona"],
+		"iri": "http://www.wikidata.org/entity/Q601175",
+		"irim": "http://www.mirabileweb.it/author/antonius-de-cremona-fl-1325-ca--author/25189",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1327"
+				},
+				"dataFine": {
+					"data": "1330"
+				}
+			}
+		}
+	},
+	"Richardus de Templo": {
+		"name": "Richardus de Templo",
+		"alias": ["Ricardus Canonicus Sanctae Trinitatis Londoniensis"],
+		"irim": "http://www.mirabileweb.it/author/richardus-de-templo-fl-saec-xii-ex-xiii-in--author/21968",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1190"
+				},
+				"dataFine": {
+					"data": "1229"
+				}
+			}
+		}
+	},
+	"Ricobaldus Ferrariensis": {
+		"name": "Ricobaldus Ferrariensis",
+		"alias": ["Riccobaldo da Ferrara"],
+		"iri": "http://www.wikidata.org/entity/Q3934689",
+		"irim": "http://www.mirabileweb.it/author/ricobaldus-ferrariensis-n-1245-ca-m-1318-ca--author/19984",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1245"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1320"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Ricoldus de Monte Crucis": {
+		"name": "Ricoldus de Monte Crucis",
+		"alias": ["Riccoldo da Montecroce"],
+		"iri": "http://www.wikidata.org/entity/Q239820",
+		"irim": "http://www.mirabileweb.it/author/ricoldus-de-monte-crucis-n-1242-m-31-10-1320-author/20042",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1242"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1320-10-31"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Rogerius de Hoveden": {
+		"name": "Rogerius de Hoveden",
+		"alias": ["Ruggero di Hoveden"],
+		"iri": "http://www.wikidata.org/entity/Q1231843",
+		"irim": "http://www.mirabileweb.it/author/rogerius-de-hoveden-m-1201-ca--author/20448",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1201"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Marcus Antonius Sabellicus": {
+		"name": "Marcus Antonius Sabellicus",
+		"alias": ["Marcantonio Sabellico", "Marcantonio Coccio"],
+		"iri": "http://www.wikidata.org/entity/Q708493",
+		"irim": "http://www.mirabileweb.it/author/marcus-antonius-sabellicus-n-1436-ca-m-18-19-4-150-author/22365",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1436"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1506-04-19"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Saewulf": {
+		"name": "Saewulf",
+		"alias": [],
+		"iri": "http://www.wikidata.org/entity/Q3461241",
+		"irim": "http://www.mirabileweb.it/author/saewulf-saec-xii-in--author/21181",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1100"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1150"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Rodericus Sancii de Arevalo": {
+		"name": "Rodericus Sancii de Arevalo",
+		"alias": ["Rodrigo Sanchez de Arévalo"],
+		"iri": "http://www.wikidata.org/entity/Q2777336",
+		"irim": "http://www.mirabileweb.it/author/rodericus-sancii-de-arevalo-n-1404-m-4-10-1470-author/23003",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1404"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1470-10-04"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Marinus Sanutus Torsellus": {
+		"name": "Marinus Sanutus Torsellus",
+		"alias": ["Marin Sanudo Torsello", "Marinus Sanutus Torxellus"],
+		"iri": "http://www.wikidata.org/entity/Q1898561",
+		"irim": "http://www.mirabileweb.it/author/marinus-sanutus-senior-n-1260-ca-m-1343-ca--author/22132",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1270"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1343"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Michael Savonarola": {
+		"name": "Michael Savonarola",
+		"alias": ["Michele Savonarola"],
+		"iri": "http://www.wikidata.org/entity/Q3310841",
+		"irim": "http://www.mirabileweb.it/author/michael-savonarola-n-1384-ca-m-24-2-1466-author/22434",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1384"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1468"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Nicolaus Scillacius": {
+		"name": "Nicolaus Scillacius",
+		"alias": ["Nicola Scillaco", "Nicola Squillaci"],
+		"irim": "http://www.mirabileweb.it/author/nicolaus-scillacius-n-1464-ca-m-post-1497-author/22364",
+		"datazione":{}
+	},
+	"Engelhardus Scintilla": {
+		"name": "Engelhardus Scintilla",
+		"alias": ["Engelhard Funk", "Engelhard Scintilla"],
+		"irim": "http://www.mirabileweb.it/author/engelhardus-scintilla-n-post-1450-m-29-11-1513-author/24002",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1450"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1513-11-29"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Simeon Simeonis": {
+		"name": "Simeon Simeonis",
+		"alias": ["Simon Simeonis"],
+		"iri": "http://www.wikidata.org/entity/Q7661353",
+		"irim": "http://www.mirabileweb.it/author/simon-semeonis-v-1322-1323-author/22220",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1322"
+				},
+				"dataFine": {
+					"data": "1323"
+				}
+			}
+		}
+	},
+	"Georgius Sisgoreus Sibenicensis": {
+		"name": "Georgius Sisgoreus Sibenicensis",
+		"alias": ["Juraj Šižgorić"],
+		"iri": "http://www.wikidata.org/entity/Q1401220",
+		"irim": "http://www.mirabileweb.it/author/georgius-sisgoreus-sibenicensis-n-1440-ca-m-1509-author/23002",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1440"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1509"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Erasmus Stella": {
+		"name": "Erasmus Stella",
+		"alias": ["SJohannes Stüler"],
+		"iri": "http://www.wikidata.org/entity/Q1348087",
+		"irim": "http://www.mirabileweb.it/author/erasmus-stella-v-1470-m-1521-author/34676",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1521"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			},
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1470"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Titus Vespasianus Strozza": {
+		"name": "Titus Vespasianus Strozza",
+		"alias": ["Tito Vespasiano Strozzi", "Titus Vespasianus Strozzius"],
+		"iri": "http://www.wikidata.org/entity/Q1934201",
+		"irim": "http://www.mirabileweb.it/author/titus-vespasianus-strozza-n-1424-m-1505-author/23141",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1424"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1505-08-30"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus Textor": {
+		"name": "Guillelmus Textor",
+		"alias": ["Wilhelm Tzewers"],
+		"iri": "http://www.wikidata.org/entity/Q65659225",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-textoris-n-1419-1420-m-1512-author/41986",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1419"
+					},
+					"dataFine": {
+						"data": "1420"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1512"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Theodericus monachus": {
+		"name": "Theodericus monachus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/theodericus-fl-1169-1172-author/19876",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1169"
+				},
+				"dataFine": {
+					"data": "1172"
+				}
+			}
+		}
+	},
+	"Theodosius archidiaconus": {
+		"name": "Theodosius archidiaconus",
+		"alias": [],
+		"iri": "http://www.wikidata.org/entity/Q30116728",
+		"irim": "http://www.mirabileweb.it/author/theodosius-archidiaconus-v-530-ca--author/21978",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "530"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Thietmarus magister de Merseburg": {
+		"name": "Thietmarus magister de Merseburg",
+		"alias": ["Thietmar von Merseburg"],
+		"iri": "http://www.wikidata.org/entity/Q275425",
+		"irim": "http://www.mirabileweb.it/author/thietmarus-merseburgensis-episcopus-n-25-7-975-m-1-author/19455",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1217"
+				},
+				"dataFine": {
+					"data": ""
+				}
+			}
+		}
+	},
+	"Thomas Frigidi Montis": {
+		"name": "Thomas Frigidi Montis",
+		"alias": ["Tommaso di Montefreddo"],
+		"irim": "http://www.mirabileweb.it/author/thomas-frigidi-montis-monachus-n-1150-ca-m-post-12-author/20471",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1150"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": true,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1125"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Ambrosius Traversarius": {
+		"name": "Ambrosius Traversarius",
+		"alias": ["Ambrogio Traversari"],
+		"iri": "http://www.wikidata.org/entity/Q458842",
+		"irim": "http://www.mirabileweb.it/author/ambrosius-traversarius-n-16-9-1386-m-21-10-1439-author/22279",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1386-09-19"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1439-10-20"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Trezenzonius": {
+		"name": "Trezenzonius",
+		"alias": ["Trezenzonio"],
+		"iri": "http://www.wikidata.org/entity/Q3394929",
+		"irim": "http://www.mirabileweb.it/author/trezenzonius-saec-xi-author/224319",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": true,
+					"dataInizio": {
+						"data": "1101"
+					},
+					"dataFine": {
+						"data": "1200"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Henricus Tribbe": {
+		"name": "Henricus Tribbe",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/henricus-tribbe-n-1410-ca-m-4-7-1464-author/22866",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1410"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1464-07-04"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus Tudebodus": {
+		"name": "Petrus Tudebodus",
+		"alias": ["Pietro Tudebode"],
+		"iri": "http://www.wikidata.org/entity/Q3387185",
+		"irim": "http://www.mirabileweb.it/author/petrus-tudebodus-fl-1102-1111-author/20399",
+		"datazione":{
+			"floruit":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1102"
+				},
+				"dataFine": {
+					"data": "1111"
+				}
+			}
+		}
+	},
+	"Conradus Tigurinus": {
+		"name": "Conradus Tigurinus",
+		"alias": ["Conrad Türst"],
+		"iri": "http://www.wikidata.org/entity/Q1782347",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1450"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1503-08-18"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Petrus Paulus Vergerius": {
+		"name": "Petrus Paulus Vergerius",
+		"alias": ["Pietro Paolo Vergerio il Vecchio", "Petrus Histrus", "Petrus Iustinopolitanus"],
+		"iri": "http://www.wikidata.org/entity/Q737756",
+		"irim": "http://www.mirabileweb.it/author/petrus-paulus-vergerius-iunior-n-1498-m-4-10-1565-author/232524",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1370-07-23"
+					},
+					"dataFine": {
+						"data": "1444-07-08"
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": ""
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},	
+	"Guillelmus Walterus de Zirixsee": {
+		"name": "Guillelmus Walterus de Zirixsee",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/guillelmus-walteri-de-zirixsee-v-1447-1450-author/29026",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1447"
+				},
+				"dataFine": {
+					"data": "1450"
+				}
+			}
+		}
+	},
+	"Paulus Waltherus de Guglingen": {
+		"name": "Paulus Waltherus de Guglingen",
+		"alias": ["Paulus Walter"],
+		"iri": "http://www.wikidata.org/entity/Q93260530",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1422"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1484"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus Wey": {
+		"name": "Guillelmus Wey",
+		"alias": ["William Wey"],
+		"irim": "http://www.mirabileweb.it/author/guillelmus-wey-n-1406-m-1476-author/34877",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1406"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1476"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Wilbrandus Oldenburgensis": {
+		"name": "Wilbrandus Oldenburgensis",
+		"alias": ["Wilbrand von Oldenburg"],
+		"iri": "http://www.wikidata.org/entity/Q76083",
+		"irim": "http://www.mirabileweb.it/author/wilbrandus-oldenburgensis-n-1170-ca-m-26-27-7-1233-author/21979",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1170"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1233-07-26"
+					},
+					"dataFine": {
+						"data": "1233-07-27"
+					}
+				}
+			}
+		}
+	},
+	"Wolfgangus de Stira": {
+		"name": "Wolfgangus de Stira",
+		"irim": "http://www.mirabileweb.it/author/wolfgangus-de-stira-n-1402-m-7-3-1491-author/219992",
+		"alias": ["Wolfgang von Steyr"],
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1402"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1491-03-07"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Guillelmus Worcestrius": {
+		"name": "Guillelmus Worcestrius",
+		"alias": ["William Worcester"],
+		"iri": "http://www.wikidata.org/entity/Q8020569",
+		"irim": "http://www.mirabileweb.it/author/guillelmus-worcestrius-n-1415-m-1482-author/22883",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1415"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1482"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Maurus Lapi de Florentia": {
+		"name": "Maurus Lapi de Florentia",
+		"alias": ["Mauro Lapi", "Maurus Lapi"],
+		"irim": "http://www.mirabileweb.it/author/maurus-lapi-de-florentia-osbcam-n-1390-m-1478-author/241634",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1390"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1478"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Agostinus Patricius Piccolomineus": {
+		"name": "Agostinus Patricius Piccolomineus",
+		"alias": ["Agostino Patrizi Piccolomini"],
+		"irim": "http://www.mirabileweb.it/author/augustinus-patricius-piccolomineus-pientinus-episc-author/35997",
+		"datazione":{}
+	},
+	"Ubertinus Posculus": {
+		"name": "Ubertinus Posculus",
+		"alias": ["Ubertino Posculo","Ubertinus de Posculis"],
+		"irim": "http://www.mirabileweb.it/author/hubertinus-pusculus-brixiensis-n-1430-ca-m-ante-7--author/24041",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": true,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1430"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1507"
+					},
+					"dataFine": {
+						"data": "1508"
+					}
+				}
+			}
+		}
+	},
+	"Petrus Ransanus": {
+		"name": "Petrus Ransanus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/petrus-ransanus-n-1428-m-1492-author/23478",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1428"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1492"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Conradus Bitschin": {
+		"name": "Conradus Bitschin",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/conradus-bitschin-v-1420-m-post-1464-author/25740",
+		"datazione":{
+			"vita":{
+				"dataNascita": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1420"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				},
+				"dataMorte": {
+					"incertezza": false,
+					"post": false,
+					"ante": false,
+					"secolo": false,
+					"dataInizio": {
+						"data": "1465"
+					},
+					"dataFine": {
+						"data": ""
+					}
+				}
+			}
+		}
+	},
+	"Iacobus Utinensis": {
+		"name": "Iacobus Utinensis",
+		"alias": ["Giacomo da Udine"],
+		"irim": "http://www.mirabileweb.it/author/iacobus-utinensis-n-1415-m-1482-author/24292",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1415"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1482"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Franceschinus Apuanensis": {
+		"name": "Franceschinus Apuanensis",
+		"alias": ["Franceschino da Pontremoli"],
+		"datazione":{}
+	},
+	"Ludovicus de Blasere": {
+		"name": "Ludovicus de Blasere",
+		"alias": [],
+		"datazione":{}
+	},
+	"Benedictus Cochorella": {
+		"name": "Benedictus Cochorella",
+		"alias": [],
+		"datazione":{}
+	},
+	"Marcus Paulus Venetus": {
+		"name": "Marcus Paulus Venetus",
+		"alias": ["Marco Polo"],
+		"irim": "http://www.mirabileweb.it/author/marcus-paulus-venetus-(versiones-latinae)-n-1254-m-author/24267",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1254"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1324-01-08"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Gryphon Flamengus": {
+		"name": "Gryphon Flamengus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/gryphon-flamengus-n-1405-ca-m-18-7-1475-author/33510",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1405"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1475-07-18"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+	"Hugeburc monacha de Heidenheim": {
+		"name": "Hugeburc monacha de Heidenheim",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/hugeburc-monacha-fl-778-author/19819",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "778"
+                },
+                "dataFine": {
+                    "data": ""
+                }
+            }
+        }
+	}
+	
+	
+}
