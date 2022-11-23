@@ -1,0 +1,25 @@
+{
+    "Liber sancti Iacobi": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/liber-sancti-iacobi-title/172662",
+        "title": "Liber sancti Iacobi",
+        "alias": ["Liber sancti Iacobi (Codex Calixtinus)"]
+    },
+    "De magnalibus urbis Mediolani": {
+        "author": "Bonvicinus de Ripa",
+        "irim": "http://www.mirabileweb.it/title/de-magnalibus-urbis-mediolani-bonvicinus-de-ripa-n-title/4783",
+        "title": "De magnalibus urbis Mediolani",
+        "alias": []
+    },
+    "Epistola Iohannis presbyteri, regis Indiae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/epistola-iohannis-presbyteri-regis-indiae-title/172754",
+        "title": "Epistola Iohannis presbyteri, regis Indiae",
+        "alias": []
+    },
+    "Epistola de peregrinatione ad urbem Constantiam a Niccoli (IV 3)": {
+		"author": "Leonardus Brunus",
+		"title": "Epistola de peregrinatione ad urbem Constantiam a Niccoli (IV 3)",
+		"alias": []
+	}
+}

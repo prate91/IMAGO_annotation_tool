@@ -1,0 +1,35 @@
+{
+    "Bonvicinus de Ripa": {
+		"name": "Bonvicinus de Ripa",
+		"alias": ["Bonvesin de la Riva"],
+		"irim": "http://www.mirabileweb.it/author/bonvicinus-de-ripa-n-ante-1250-m-5-1-13-3-1315-author/19415",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": true,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1250"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "05-01-1315"
+                    },
+                    "dataFine": {
+                        "data": "13-03-1315"
+                    }
+                }
+            }
+        }
+	}
+}

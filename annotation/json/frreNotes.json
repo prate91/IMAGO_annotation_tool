@@ -1,0 +1,124 @@
+{
+"datazioneTOP":{
+    "dataNascita": {
+                "dataInizio": {
+                    "data": "1314-01-04",
+                    "incertezza": false
+                },
+                "dataFine": {
+                    "data": "1314-01-04",
+                    "incertezza": false
+                }
+            },
+            "dataMorte": {
+                "dataInizio": {
+                    "data": "1314-01-04",
+                    "incertezza": false
+                },
+                "dataFine": {
+                    "data": "1314-01-04",
+                    "incertezza": false
+                }
+            }
+		},
+
+"attribution": "auctor incertus",
+
+"Itinerarius Iohannes Francofurdinus": {
+    "author": "Iohannes Francofurdinus",
+    "irim": "http://www.mirabileweb.it/title/itinerarius-iohannes-lagenator-de-francofordia-n-1-title/27609",
+    "title": "Itinerarius",
+    "alias": []
+},
+"Iohannes Francofurdinus": {
+    "name": "Iohannes Francofurdinus",
+    "irim": "http://www.mirabileweb.it/author/iohannes-lagenator-de-francofordia-n-1380-ca-m-13--author/22399",
+    "alias": ["Johannes von Frankfurt", "Iohannes de Francfordia"],
+    "datazione":{
+        "vita":{
+            "dataNascita": {
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1380"
+                },
+                "dataFine": {
+                    "data": ""
+                }
+            },
+            "dataMorte": {
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1440"
+                },
+                "dataFine": {
+                    "data": ""
+                }
+            }
+        }
+    }
+},
+
+"datazione":{
+    "vita":{
+        "dataNascita": {
+            "incertezza": false,
+            "post": false,
+            "ante": false,
+            "secolo": false,
+            "dataInizio": {
+                "data": ""
+            },
+            "dataFine": {
+                "data": ""
+            }
+        },
+        "dataMorte": {
+            "incertezza": false,
+            "post": false,
+            "ante": false,
+            "secolo": false,
+            "dataInizio": {
+                "data": ""
+            },
+            "dataFine": {
+                "data": ""
+            }
+        }
+    }
+},
+
+"datazione":{
+    "floruit":{
+        "incertezza": false,
+        "post": false,
+        "ante": false,
+        "secolo": false,
+        "dataInizio": {
+            "data": ""
+        },
+        "dataFine": {
+            "data": ""
+        }
+    }
+},
+"datazione":{
+    "vescovo":{
+        "incertezza": false,
+        "post": false,
+        "ante": false,
+        "secolo": false,
+        "dataInizio": {
+            "data": ""
+        },
+        "dataFine": {
+            "data": ""
+        }
+    }
+}
+}

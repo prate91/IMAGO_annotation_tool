@@ -1,0 +1,214 @@
+{
+	"Trattatistica geografica": {
+		"name": "Trattatistica geografica",
+		"iri": "https://imagoarchive.it/thes/tid/10001"
+	},
+	"Cosmografie": {
+		"name": "Cosmografie",
+		"iri": "https://imagoarchive.it/thes/tid/100011"
+	},
+	"Corografie": {
+		"name": "Corografie",
+		"iri": "https://imagoarchive.it/thes/tid/100012"
+	},
+	"Insulari": {
+		"name": "Insulari",
+		"iri": "https://imagoarchive.it/thes/tid/100013"
+	},
+	"Descriptiones": {
+		"name": "Descriptiones",
+		"iri": "https://imagoarchive.it/thes/tid/100014"
+	},
+	"Letteratura odeporica": {
+		"name": "Letteratura odeporica",
+		"iri": "https://imagoarchive.it/thes/tid/10002"
+	},
+	"Itineraria": {
+		"name": "Itineraria",
+		"iri": "https://imagoarchive.it/thes/tid/100021"
+	},
+	"Peregrinationes": {
+		"name": "Peregrinationes",
+		"iri": "https://imagoarchive.it/thes/tid/100022"
+	},
+	"Periegesi": {
+		"name": "Periegesi",
+		"iri": "https://imagoarchive.it/thes/tid/100023"
+	},
+	"Peripli": {
+		"name": "Peripli",
+		"iri": "https://imagoarchive.it/thes/tid/100024"
+	},
+	"Navigazioni": {
+		"name": "Navigazioni",
+		"iri": "https://imagoarchive.it/thes/tid/100025"
+	},
+	"Diari di viaggio": {
+		"name": "Diari di viaggio",
+		"iri": "https://imagoarchive.it/thes/tid/100026"
+	},
+	"Cartografia": {
+		"name": "Cartografia",
+		"iri": "https://imagoarchive.it/thes/tid/10003"
+	},
+	"Tabulae": {
+		"name": "Tabulae",
+		"iri": "https://imagoarchive.it/thes/tid/100031"
+	},
+	"Planisferi e mappamondi": {
+		"name": "Planisferi e mappamondi",
+		"iri": "https://imagoarchive.it/thes/tid/100032"
+	},
+	"Portolani e carte nautiche": {
+		"name": "Portolani e carte nautiche",
+		"iri": "https://imagoarchive.it/thes/tid/100033"
+	},
+	"Carte topografiche": {
+		"name": "Carte topografiche",
+		"iri": "https://imagoarchive.it/thes/tid/100034"
+	},
+	"Agiografia": {
+		"name": "Agiografia",
+		"iri": "https://imagoarchive.it/thes/tid/10004"
+	},
+	"Passiones": {
+		"name": "Passiones",
+		"iri": "https://imagoarchive.it/thes/tid/100041"
+	},
+	"Vitae": {
+		"name": "Vitae",
+		"iri": "https://imagoarchive.it/thes/tid/100042"
+	},
+	"Translationes": {
+		"name": "Translationes",
+		"iri": "https://imagoarchive.it/thes/tid/100043"
+	},
+	"Miracula": {
+		"name": "Miracula",
+		"iri": "https://imagoarchive.it/thes/tid/100044"
+	},
+	"Trattatistica antiquaria e archeologica": {
+		"name": "Trattatistica antiquaria e archeologica",
+		"iri": "https://imagoarchive.it/thes/tid/10005"
+	},
+	"Epistolografia": {
+		"name": "Epistolografia",
+		"iri": "https://imagoarchive.it/thes/tid/10006"
+	},
+	"Novellistica": {
+		"name": "Novellistica",
+		"iri": "https://imagoarchive.it/thes/tid/10007"
+	},
+	"Poesia": {
+		"name": "Poesia",
+		"iri": "https://imagoarchive.it/thes/tid/10008"
+	},
+	"Poesia lirica": {
+		"name": "Poesia lirica",
+		"iri": "https://imagoarchive.it/thes/tid/100081"
+	},
+	"Elegie": {
+		"name": "Elegie",
+		"iri": "https://imagoarchive.it/thes/tid/100082"
+	},
+	"Poesia satirica": {
+		"name": "Poesia satirica",
+		"iri": "https://imagoarchive.it/thes/tid/100083"
+	},
+	"Epica": {
+		"name": "Epica",
+		"iri": "https://imagoarchive.it/thes/tid/100084"
+	},
+	"Poesia didascalica": {
+		"name": "Poesia didascalica",
+		"iri": "https://imagoarchive.it/thes/tid/100085"
+	},
+	"Poesia bucolica": {
+		"name": "Poesia bucolica",
+		"iri": "https://imagoarchive.it/thes/tid/100086"
+	},
+	"Storiografia": {
+		"name": "Storiografia",
+		"iri": "https://imagoarchive.it/thes/tid/10009"
+	},
+	"Annalistica": {
+		"name": "Annalistica",
+		"iri": "https://imagoarchive.it/thes/tid/1000901"
+	},
+	"Storia patria": {
+		"name": "Storia patria",
+		"iri": "https://imagoarchive.it/thes/tid/1000902"
+	},
+	"Monografie storiche": {
+		"name": "Monografie storiche",
+		"iri": "https://imagoarchive.it/thes/tid/1000903"
+	},
+	"Laudes urbium": {
+		"name": "Laudes urbium",
+		"iri": "https://imagoarchive.it/thes/tid/1000904"
+	},
+	"Ktiseis - Origini delle città": {
+		"name": "Ktiseis - Origini delle città",
+		"iri": "https://imagoarchive.it/thes/tid/1000905"
+	},
+	"Panegiristica": {
+		"name": "Panegiristica",
+		"iri": "https://imagoarchive.it/thes/tid/1000906"
+	},
+	"Memorialistica": {
+		"name": "Memorialistica",
+		"iri": "https://imagoarchive.it/thes/tid/1000907"
+	},
+	"Cronache": {
+		"name": "Cronache",
+		"iri": "https://imagoarchive.it/thes/tid/1000908"
+	},
+	"Commentari": {
+		"name": "Commentari",
+		"iri": "https://imagoarchive.it/thes/tid/1000909"
+	},
+	"Autobiografie": {
+		"name": "Autobiografie",
+		"iri": "https://imagoarchive.it/thes/tid/1000910"
+	},
+	"Biografie e collane di biografie": {
+		"name": "Biografie e collane di biografie",
+		"iri": "https://imagoarchive.it/thes/tid/1000911"
+	},
+	"Genealogie": {
+		"name": "Genealogie",
+		"iri": "https://imagoarchive.it/thes/tid/1000912"
+	},
+	"Aneddotica": {
+		"name": "Aneddotica",
+		"iri": "https://imagoarchive.it/thes/tid/1000913"
+	},
+	"Teatro": {
+		"name": "Teatro",
+		"iri": "https://imagoarchive.it/thes/tid/10010"
+	},
+	"Dramma sacro": {
+		"name": "Dramma sacro",
+		"iri": "https://imagoarchive.it/thes/tid/100101"
+	},
+	"Commedia elegiaca": {
+		"name": "Commedia elegiaca",
+		"iri": "https://imagoarchive.it/thes/tid/100102"
+	},
+	"Commedia umanistica": {
+		"name": "Commedia umanistica",
+		"iri": "https://imagoarchive.it/thes/tid/100103"
+	},
+	"Tragedia umanistica": {
+		"name": "Tragedia umanistica",
+		"iri": "https://imagoarchive.it/thes/tid/100104"
+	},
+	"Dramma storico": {
+		"name": "Dramma storico",
+		"iri": "https://imagoarchive.it/thes/tid/100105"
+	},
+	"Trattatistica termale": {
+		"name": "Trattatistica termale",
+		"iri": "https://imagoarchive.it/thes/tid/10011"
+	}
+}

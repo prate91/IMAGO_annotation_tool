@@ -1,0 +1,133 @@
+[{
+	"id": 872,
+	"lemma": {
+		"opera": {
+			"iri": "http://www.mirabileweb.it/title/descriptio-insulae-cretae-title/4834",
+			"title": "Descriptio insulae Cretae",
+			"author": "http://www.mirabileweb.it/author/christophorus-bondelmontius-n-1385-ca-m-post-1430-author/22278"
+		},
+		"owner": "prate91",
+		"autore": {
+			"iri": "http://www.mirabileweb.it/author/christophorus-bondelmontius-n-1385-ca-m-post-1430-author/22278",
+			"name": "Christophorus Bondelmontius"
+		},
+		"generi": [{
+			"iri": "http://purl.org/bncf/tid/24527",
+			"name": "Agiografia"
+		}],
+		"toponimi": [{
+			"iri": "http://www.wikidata.org/entity/Q34374",
+            "lat": "35.309722",
+			"lon": "24.893333",
+            "name": "Creta",
+            "country": {
+                "name": "Grecia",
+                "iri": "http://www.wikidata.org/entity/Q41"
+            }
+		}],
+		"manoscritti": [{
+			"url": "",
+			"fogli": "ff. 1r-50v",
+			"fonti": "Potthast, p. 1967, p. 606; DBI, XV, p. 199",
+			"autore": "Christofori Bondelmontis",
+			"titolo": "Descriptio insulae Cretae",
+			"lastMod": 1620307979.308322,
+			"datazione": "1417/1422",
+			"segnatura": "ROSSIANO 703",
+			"biblioteca": {
+				"iri": "http://www.wikidata.org/entity/Q213678",
+				"lat": "41.904722222",
+				"lon": "12.454444444",
+				"name": "Biblioteca Apostolica Vaticana",
+				"place": {
+					"iri": "http://www.wikidata.org/entity/Q237",
+					"lat": "41.904",
+					"lon": "12.453",
+					"name": "Citt\u00e0 del Vaticano",
+					"country": {
+                        "name": "Citt\u00e0 del Vaticano",
+                        "iri": "http://www.wikidata.org/entity/Q237"
+                    }
+
+				}
+			},
+			"schedatore": {
+                "username": "prate91",
+                "nome" : "Nicolò",
+                "cognome" : "Pratelli"
+            },
+			"incipitTesto": "",
+			"explicitTesto": "",
+			"incipitDedica": "",
+			"explicitDedica": ""
+		}, {
+			"url": "",
+			"fogli": "",
+			"fonti": "",
+			"autore": "autore",
+			"titolo": "titolo 2",
+			"lastMod": 1620138142.927212,
+			"datazione": "1920",
+			"segnatura": "",
+			"biblioteca": {
+				"iri": "http://www.wikidata.org/entity/Q2326804",
+				"lat": "50.7777",
+				"lon": "6.09002",
+				"name": "Aachen City Library",
+				"place": {
+					"iri": "http://www.wikidata.org/entity/Q1017",
+                    "lat": "50.776207",
+					"lon": "6.083788",
+					"name": "Aachen",
+                    "country": {
+                        "name": "Germania",
+                        "iri": "http://www.wikidata.org/entity/Q183"
+                    }
+				}
+			},
+			"schedatore": {
+                "username": "prate91",
+                "nome" : "Nicolò",
+                "cognome" : "Pratelli"
+            },
+			"incipitTesto": "",
+			"explicitTesto": "",
+			"incipitDedica": "",
+			"explicitDedica": ""
+		}],
+		"edizioniStampa": [{
+			"data": "",
+			"note": "",
+			"luogo": {
+				"iri": "http://www.wikidata.org/entity/Q2044",
+                "lat": "43.771389",
+                "lon": "11.254167",
+                "name": "Firenze",
+                "country": {
+                    "name": "Italia",
+                    "iri": "http://www.wikidata.org/entity/Q38"
+                }
+			},
+			"autore": "prova",
+			"figure": "",
+			"pagine": "",
+			"titolo": "prova",
+			"editore": "",
+			"formato": "",
+			"curatore": "",
+			"ecdotica": "",
+			"edizione": "",
+			"lastMod": 1619789342.8974693,
+			"prefatore": "",
+			"schedatore": {
+                "username": "prate91",
+                "nome" : "Nicolò",
+                "cognome" : "Pratelli"
+            },
+			"dataEdizione": "",
+			"fontiPrimarie": "",
+			"altriContenuti": "",
+			"fontiSecondarie": ""
+		}]
+	}
+}]
