@@ -50,6 +50,25 @@
 // Global variable that will contain form data
 var data = {};
 
+/*
+	Function to reset popovers to original state
+*/
+function resetPopovers(selector) {
+	//console.log(selector);
+	//console.log($(selector).attr('title'))
+	//console.log($(selector).attr('data-default-title'))
+	//console.log($(selector).attr('data-original-title'))
+	//console.log(' ')
+	if (selector === undefined) {
+		selector = '[data-toggle=popover]';
+	}
+	$(selector).each(function() {
+		$(this).attr('data-original-title', $(this).attr('data-default-title'));
+		$(this).attr('data-content', '');
+	});
+}
+
+
 // Wait for the page to load
 document.addEventListener('DOMContentLoaded', function () {
   
@@ -494,8 +513,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	********************************************************/
 	// Get the forms
 	var ecdotic = document.getElementById("id_ecdotic_typology");
-	var label_language = document.getElementById("label-language")
-	var field_language = document.getElementById("field-language")
+	var label_language = document.getElementById("label-language");
+	var field_language = document.getElementById("field-language");
 	
 
 	ecdotic.addEventListener("change", function () {
@@ -510,6 +529,8 @@ document.addEventListener('DOMContentLoaded', function () {
 		} else {
 			label_language.hidden = true;
 			field_language.hidden = true;
+			field_language.getElementsByTagName("input")[0].value="";
+
 		}
 
 	});
@@ -671,6 +692,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					information.parentElement.scrollIntoView();
 
 					document.getElementById("manuscriptForm").reset();
+					clearIRIformsets();
 					resetPopovers();
 					
 				}else{
@@ -701,7 +723,7 @@ document.addEventListener('DOMContentLoaded', function () {
 						var panel = this.nextElementSibling;
 						if(panel.getElementsByClassName("manuscript-information")[0].hidden){
 							document.getElementById("manuscriptForm").reset();
-
+							clearIRIformsets();
 							// Reset popovers
 							resetPopovers();
 			
@@ -773,7 +795,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					document.getElementById("printEditionForm").reset();
 					document.getElementById("manuscriptForm").reset();
 					
-
+					clearIRIformsets();
 					resetPopovers();
 					// tinyMCE.activeEditor.setContent('');
 					// tinymce.get("id_text_fragment").setContent('');
@@ -911,6 +933,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					information.parentElement.scrollIntoView();
 
 					document.getElementById("printEditionForm").reset();
+					clearIRIformsets();
 				}else{
 
 				// Inserire la nuova citazione nel DOM
@@ -945,7 +968,7 @@ document.addEventListener('DOMContentLoaded', function () {
 					var panel = this.nextElementSibling;
 					if(panel.getElementsByClassName("print-edition-information")[0].hidden){
 						document.getElementById("printEditionForm").reset();
-	
+						clearIRIformsets();
 						// Reset popovers
 						resetPopovers();
 		
@@ -1026,6 +1049,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				// tinyMCE.activeEditor.setContent('');
 				// tinymce.get("id_text_fragment").setContent('');
 				// tinymce.get("id_source_text").setContent('');
+				clearIRIformsets();
 
 				// hide formsets
 				// hideFormsets(formsets_id);
@@ -2552,10 +2576,11 @@ function loadManuscriptForEdit(button, data_l, manuscript_form){
 				}else{
 		this.removeEventListener('click', loadManuscript);
 		// // Prevent page reload
-		console.log("data_l");
-		console.log(data_l);
+		// console.log("data_l");
+		// console.log(data_l);
 		document.getElementById("manuscriptForm").reset();
 		// clearForm(manuscript_form);
+		clearIRIformsets();
 
 		manuscript_id = this.id.split("-")[1];
 
@@ -2608,6 +2633,7 @@ function loadManuscriptForEdit(button, data_l, manuscript_form){
 		accordion.style.maxHeight = "5000px";
 
 		form.reset();
+		clearIRIformsets();
 		// hideFormsets(formsets_id);
 
 		// console.log(document.getElementById("id_text_fragment"));
@@ -2659,6 +2685,7 @@ function loadManuscriptForEdit(button, data_l, manuscript_form){
 				// event.preventDefault();
 				button.addEventListener("click", loadManuscript);
 				form.reset();
+				clearIRIformsets();
 				
 				form = document.getElementById("manuscriptForm").parentElement.removeChild(document.getElementById("manuscriptForm"));
 		
@@ -2702,6 +2729,7 @@ function loadPrintEditionForEdit(button, data, print_edition_form){
 		// // Prevent page reload
 		// event.preventDefault();
 		document.getElementById("printEditionForm").reset();
+		clearIRIformsets();
 
 		print_edition_id = this.id.split("-")[1];
 		
@@ -2742,6 +2770,7 @@ function loadPrintEditionForEdit(button, data, print_edition_form){
 		accordion.style.maxHeight = "5000px";
 
 		form.reset();
+		clearIRIformsets();
 
 		console.log(data);
 
@@ -2769,6 +2798,11 @@ function loadPrintEditionForEdit(button, data, print_edition_form){
 		document.getElementById("id_date_edition").value = print_edition.dataEdizione;
 		document.getElementById("id_primary_sources").value = print_edition.fontiPrimarie;
 		document.getElementById("id_ecdotic_typology").value = print_edition.ecdotica;
+		if(print_edition.linguaTraduzione!=""){
+			document.getElementById("label-language").hidden = false;
+			document.getElementById("field-language").hidden = false;
+			document.getElementById("id_language").value = print_edition.linguaTraduzione;
+		}
 		// document.getElementById("id_secondary_sources_pe").value = print_edition.fontiSecondarie;
 		loadElementGroupFieldsSource(print_edition.fontiSecondarie,"secondary_sources_pe", 'source_print_edition', 'print_edition');
 		document.getElementById("id_print_edition_author").scrollIntoView();
@@ -2785,7 +2819,9 @@ function loadPrintEditionForEdit(button, data, print_edition_form){
 		cancel.addEventListener("click", function () {
 				// // Prevent page reload
 				// event.preventDefault();
+				button.addEventListener("click", loadPrintEdition);
 				form.reset();
+				clearIRIformsets();
 				
 				form = document.getElementById("printEditionForm").parentElement.removeChild(document.getElementById("printEditionForm"));
 		
@@ -3437,4 +3473,9 @@ function hideFormsets(formset_id){
 		}
 }
 
-
+function clearIRIformsets(){
+	var listFormsets = document.getElementsByClassName("hidden-formset");
+	for (var i = 0; i < listFormsets.length; i++) {
+		listFormsets[i].value="";
+	}
+}
