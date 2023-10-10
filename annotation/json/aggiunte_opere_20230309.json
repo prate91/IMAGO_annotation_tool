@@ -1,0 +1,54 @@
+{
+    "Indulgentiae ecclesiarum urbis Romae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/indulgentiae-ecclesiarum-urbis-romae-title/172555",
+        "title": "Indulgentiae ecclesiarum urbis Romae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Polistoria de virtutibus et dotibus Romanorum": {
+        "author": "Iohannes Caballini de Cerronibus",
+        "irim": "http://www.mirabileweb.it/title/polistoria-de-virtutibus-et-dotibus-romanorum-ioha-title/5086",
+        "title": "Polistoria de virtutibus et dotibus Romanorum",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "De mirabilibus urbis Romae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/tractatus-de-rebus-antiquis-et-situ-urbis-romae-title/197946",
+        "title": "Tractatus de rebus antiquis et situ urbis Romae (Anonymus Magliabechianus)",
+        "alias": ["Tractatus de rebus antiquis et situ urbis Romae (Anonimo Magliabechiano)"],
+        "owner":"sara.crea"
+    },
+    "De iuribus et excellentiis urbis Romae": {
+        "author": "Nicolaus Signorilis",
+        "irim": "http://www.mirabileweb.it/title/de-iuribus-et-excellentiis-urbis-romae-nicolaus-si-title/200545",
+        "title": "De iuribus et excellentiis urbis Romae",
+        "alias": ["De antiquitate et mirabilibus Urbis"],
+        "owner":"sara.crea"
+    },
+    "De rebus antiquis memorabilibus basilicae Sancti Petri Romae": {
+        "author": "Mapheus Vegius Laudensis",
+        "irim": "http://www.mirabileweb.it/title/de-rebus-antiquis-memorabilibus-basilicae-sancti-p-title/9870",
+        "title": "De rebus antiquis memorabilibus basilicae Sancti Petri Romae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Graphia aureae urbis Romae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/graphia-aureae-urbis-romae-title/172120",
+        "title": "Graphia aureae urbis Romae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Chronicon": {
+        "author": "Bentius Alexandrinus",
+        "title": "Chronicon",
+        "irim": "http://www.mirabileweb.it/title/chronica-a-mundi-principio-usque-ad-tempora-henric-title/5466",
+        "alias": ["Chronica a mundi principio usque ad tempora Henrici VII"],
+        "owner":"sara.crea"
+    }
+    
+}
+
+

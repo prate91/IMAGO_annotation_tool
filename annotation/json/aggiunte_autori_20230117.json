@@ -1,0 +1,41 @@
+{
+    "Dicuil Hibernicus": {
+		"name": "Dicuil Hibernicus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/dicuil-hibernicus-fl-814-825-ca--author/19619",
+        "datazione":{
+            "floruit":{
+                "incertezza": true,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "814"
+                },
+                "dataFine": {
+                    "data": "825"
+                }
+            }
+        }
+	},
+    "Guidus Pisanus": {
+		"name": "Guidus Pisanus",
+		"alias": ["Guido Pisanus"],
+		"irim": "http://www.mirabileweb.it/author/guido-pisanus-fl-1117-1119-author/29076",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1117"
+                },
+                "dataFine": {
+                    "data": "1119"
+                }
+            }
+        }
+	}
+    
+}

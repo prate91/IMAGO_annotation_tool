@@ -1,0 +1,41 @@
+{
+    "Ranulphus Higden": {
+		"name": "Ranulphus Higden",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/ranulphus-higden-m-12-3-1364-ca--author/19221",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "12-3-1364"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Ioannis Chrysostomi Zanchi Bergomatis": {
+		"name": "Ioannis Chrysostomi Zanchi Bergomatis",
+		"alias": [],
+        "datazione":{}
+	}
+        
+}

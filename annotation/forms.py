@@ -275,6 +275,12 @@ class AbstractForm(forms.Form):
                                         'rows': 3,
                                     }))
 
+class ReviewForm(forms.Form):
+    """Form for abstract
+    """
+    review = forms.BooleanField(label="Review",
+                               required=False
+                                )
 
 
 class TopographyForm(forms.Form):

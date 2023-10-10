@@ -85,6 +85,8 @@ IMAGO_BASE_IRI = 'https://imagoarchive.it/resource/'
 IMAGO_BIBLIO_IRI = 'https://imagoarchive.it/bibliografia.html#'
 ANONYMOUS_IRI = 'http://www.wikidata.org/entity/Q4233718'
 
+# Reviewer
+reviewers = {'paolo.pontari', 'luca.ruggio'}
 
 
 class LazyEncoder(DjangoJSONEncoder):
@@ -347,13 +349,14 @@ def get_works(request, author_id):
     # notes = Annotation.objects.filter(data__owner=request.user.id) # prende solo le note di un owner
     # notes = Annotation.objects.filter(data__owner=vreuser) # prende solo le note di un owner
     # done = Count('data__Nota__Commento', filter=Q(data__Stato='done')) 
-    works = lemmas.values('data__lemma__opera').order_by('data__lemma__opera')
+    works = lemmas.values('data__lemma__opera','data__lemma__review').order_by('data__lemma__opera')
     works_list = []
     for obj in works:
         work = Work.objects.get(data__iri=obj['data__lemma__opera'])
         work_id = work.id
         work_title = work.data['title']
-        works_list.append({'id' : work_id, 'titolo': work_title})
+        review = obj['data__lemma__review']
+        works_list.append({'id' : work_id, 'titolo': work_title, 'review': review})
     # works_list = [{'opera': obj['data__Lemma__Opera']} for obj in authors]
     context = {'author_id' : author_id,
                'author_name' : author_name,
@@ -457,6 +460,7 @@ def lemma(request, author_id=0, work_id=0):
         print_edition_form = PrintEditionForm()
         date_print_edition_form = DatePrintEditionForm()
         abstract_form = AbstractForm()
+        review_form = ReviewForm()
 
         author_iri = lemma_form['author_iri'].value()
         author = lemma_form['author'].value()
@@ -524,7 +528,8 @@ def lemma(request, author_id=0, work_id=0):
                        'date_manuscript_form' : date_manuscript_form,
                        'print_edition_form': print_edition_form,
                        'date_print_edition_form': date_print_edition_form,
-                       'abstract_form': abstract_form
+                       'abstract_form': abstract_form,
+                       'review_form': review_form,
                        }
             if request.is_ajax():
                 return JsonResponse({'lemma_json': lemma_json, 
@@ -588,13 +593,14 @@ def lemma(request, author_id=0, work_id=0):
         work_form = WorkForm({'title': work_title,
                           'title_iri': work_iri,
                           'alias': ';'.join(work_alias)})
-        print(work_form)
+        # print(work_form)
         work_type_form = WorkTypeForm()
         manuscript_form = ManuscriptForm()
         date_manuscript_form = DateManuscriptForm()
         print_edition_form = PrintEditionForm()
         date_print_edition_form = DatePrintEditionForm()
         abstract_form = AbstractForm()
+        review_form = ReviewForm()
         genre_formset = GenreFormSet(prefix='genre_set')
         topography_formset = TopographyFormSet(prefix='topography_set')
         source_manuscript_formset = SourceManuscriptFormSet(prefix='source_manuscript_set')
@@ -614,6 +620,7 @@ def lemma(request, author_id=0, work_id=0):
                    'work_form' : work_form,
                    'work_type_form' : work_type_form,
                    'abstract_form' : abstract_form,
+                   'review_form' : review_form,
                    'manuscript_form' : manuscript_form,
                    'date_manuscript_form' : date_manuscript_form,
                    'print_edition_form': print_edition_form,
@@ -712,6 +719,15 @@ def insert_manuscript(request, manuscript_id=-1, author_id=0, work_id=0):
         lemma = Lemma.objects.get(data__lemma__autore=author_iri, data__lemma__opera=work_iri)
         last_mod = time.time() 
         
+        if request.user.username in reviewers:
+            # print(lemma.data['lemma']['manoscritti'][manuscript_id]['lastMod'])
+            last_mod = lemma.data['lemma']['manoscritti'][manuscript_id]['lastMod']
+            # print(lemma.data['lemma']['manoscritti'][manuscript_id]['schedatore'])
+            schedatore = lemma.data['lemma']['manoscritti'][manuscript_id]['schedatore']
+        else:
+            schedatore = request.user.username
+            
+        
         lemma_json = build_manuscript(lemma.data, manuscript_id, manuscript_author, 
                                       manuscript_title, library_iri, 
                                       library_location_iri, signature,
@@ -720,7 +736,7 @@ def insert_manuscript(request, manuscript_id=-1, author_id=0, work_id=0):
                                       explicit_text, date, decoration, 
                                       url, url_description,
                                       secondary_sources, notes,
-                                      request.user.username, last_mod)
+                                      schedatore, last_mod)
 
         # print(lemma_json)
 
@@ -820,6 +836,14 @@ def insert_print_edition(request, print_edition_id=-1, author_id=0, work_id=0):
 
         lemma = Lemma.objects.get(data__lemma__autore=author_iri, data__lemma__opera=work_iri)
         last_mod = time.time()
+        
+        if request.user.username in reviewers:
+            # print(lemma.data['lemma']['edizioniStampa'][print_edition_id]['lastMod'])
+            last_mod = lemma.data['lemma']['edizioniStampa'][print_edition_id]['lastMod']
+            # print(lemma.data['lemma']['edizioniStampa'][print_edition_id]['schedatore'])
+            schedatore = lemma.data['lemma']['edizioniStampa'][print_edition_id]['schedatore']
+        else:
+            schedatore = request.user.username
 
 
         lemma_json = build_print_edition(lemma.data, print_edition_id,
@@ -831,7 +855,7 @@ def insert_print_edition(request, print_edition_id=-1, author_id=0, work_id=0):
                                          other_content, edition, 
                                          date_edition, primary_sources, language,
                                          ecdotic_typology, secondary_sources, 
-                                         request.user.username, last_mod)
+                                         schedatore, last_mod)
 
         
         Lemma.objects.filter(data__lemma__autore=author_iri, data__lemma__opera=work_iri).update(data=lemma_json)
@@ -993,6 +1017,36 @@ def save_abstract(request, author_id=0, work_id=0):
             json_data["lemma"]["abstract"] = abstract
         else:
             json_data["lemma"]["abstract"] = ""
+
+
+        Lemma.objects.filter(data__lemma__autore=author_iri, data__lemma__opera=work_iri).update(data=json_data)
+        return JsonResponse({'json_data' : json_data})
+
+    return JsonResponse({'error': 'Parameters missing'})
+
+@login_required(login_url='/tool/accounts/login/')
+def save_review(request, author_id=0, work_id=0):
+
+    
+    if request.method == 'POST':
+        review_form = ReviewForm(request.POST) 
+
+        review = review_form['review'].value()
+        author = Author.objects.get(id=author_id)
+        author_name = author.data['name']
+        author_iri = author.data['iri']
+        work = Work.objects.get(id=work_id)
+        work_title = work.data['title']
+        work_iri = work.data['iri']
+
+        lemma = Lemma.objects.get(data__lemma__autore=author_iri, data__lemma__opera=work_iri)
+        json_data = lemma.data
+        print(review)
+
+        if review_form.is_valid():
+            json_data["lemma"]["review"] = review
+        else:
+            json_data["lemma"]["review"] = ""
 
 
         Lemma.objects.filter(data__lemma__autore=author_iri, data__lemma__opera=work_iri).update(data=json_data)

@@ -1,0 +1,108 @@
+{
+    "Iohannes Diaconus": {
+		"name": "Iohannes Diaconus",
+		"alias": [],
+		"datazione":{
+		}
+	},
+    "Petrus Mallii": {
+		"name": "Petrus Mallii",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/petrus-mallii-saec-xii-author/21167",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": true,
+                    "dataInizio": {
+                        "data": "1101"
+                    },
+                    "dataFine": {
+                        "data": "1200"
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Gervasius Tilberiensis": {
+		"name": "Gervasius Tilberiensis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/gervasius-tilberiensis-n-1152-ca-m-1220-ca--author/19722",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1152"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1220"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Petrus de Alliaco": {
+		"name": "Petrus de Alliaco",
+		"alias": ["Petrus Aliacensis"],
+		"irim": "http://www.mirabileweb.it/title/imago-mundi-petrus-de-alliaco-n-1350-ca-m-9-8-1420-title/4743",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1350"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "09-08-1420"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	}
+    
+}

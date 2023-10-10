@@ -1,0 +1,74 @@
+{
+    "Epistola Alexandri Magni ad Aristotelem de miraculis Indiae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/epistola-alexandri-ad-aristotelem-title/203413",
+        "title": "Epistola Alexandri Magni ad Aristotelem de miraculis Indiae",
+        "alias": ["Epistola Alexandri ad Aristotelem", "Epistola Alexandri Magni ad Aristotelem magistrum suum de situ et mirabilibus indiae"],
+        "owner":"sara.crea"
+    },
+    "Otia imperialia": {
+        "author": "Gervasius Tilberiensis",
+        "irim": "http://www.mirabileweb.it/title/otia-imperialia-gervasius-tilberiensis-n-1152-ca-m-title/4608",
+        "title": "Otia imperialia",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Imago mundi": {
+        "author": "Petrus de Alliaco",
+        "irim": "http://www.mirabileweb.it/title/imago-mundi-petrus-de-alliaco-n-1350-ca-m-9-8-1420-title/4743",
+        "title": "Imago mundi",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Descriptio Basilicae Vaticanae": {
+        "author": "Petrus Mallii",
+        "irim": "http://www.mirabileweb.it/title/descriptio-basilicae-vaticanae-petrus-mallii-saec--title/9304",
+        "title": "Descriptio Basilicae Vaticanae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Descriptio Lateranensis ecclesiae": {
+        "author": "Iohannes Diaconus",
+        "irim": "http://www.mirabileweb.it/title/descriptio-lateranensis-ecclesiae-title/216896",
+        "title": "Descriptio Lateranensis ecclesiae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Chronicon Altinate": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/chronicon-altinate-title/171574",
+        "title": "Chronicon Altinate",
+        "alias": ["Origo civitatum Italie seu Venetiarum", "Chronicon Venetum vulgo Altinate sive Origo civitatum Italiae seu Venetiarum"],
+        "owner":"sara.crea"
+    },
+    "Chronicon Gradense": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/chronicon-gradense-title/171838",
+        "title": "Chronicon Gradense",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "De origine civitatis Erfordensis": {
+        "author": "Opus sine auctore",
+        "title": "De origine civitatis Erfordensis",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Liber pontificalis Ravennatis": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/liber-pontificalis-ecclesiae-ravennatis-agnellus-q-title/5262",
+        "title": "Liber pontificalis Ravennatis",
+        "alias": ["Liber pontificalis ecclesiae Ravennatis"],
+        "owner":"sara.crea"
+    },
+    "Chronica de civitate Ravennae": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/chronica-de-civitate-ravennae-title/171083",
+        "title": "Chronica de civitate Ravennae",
+        "alias": [],
+        "owner":"sara.crea"
+    }
+    
+}
+
+

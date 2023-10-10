@@ -1,0 +1,173 @@
+{
+    "Hieronymus de Bursellis": {
+		"name": "Hieronymus de Bursellis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/hieronymus-de-bursellis-n-1432-m-24-11-1497-author/22758",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1432"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "24-11-1497"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Galvanus Flamma": {
+		"name": "Galvanus Flamma",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/galvanus-flamma-n-1283-m-post-1344-author/19725",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1283"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1344"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Gregorius magister": {
+		"name": "Gregorius magister",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/gregorius-magister-fl-saec-xii-xiii-author/20043",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": true,
+                "dataInizio": {
+                    "data": "1101"
+                },
+                "dataFine": {
+                    "data": "1200"
+                }
+            }
+        }
+	},
+    "Lucianus Cestrensis monachus": {
+		"name": "Lucianus Cestrensis monachus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/lucianus-cestrensis-monachus-fl-1200-ca--author/227898",
+        "datazione":{
+            "floruit":{
+                "incertezza": true,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1200"
+                },
+                "dataFine": {
+                    "data": ""
+                }
+            }
+        }
+	},
+    "Iohannes Porta de Annoniaco": {
+		"name": "Iohannes Porta de Annoniaco",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/iohannes-porta-de-annoniaco-m-post-1367-author/29037",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1367"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Ladislao Sunthaym": {
+		"name": "Ladislao Sunthaym",
+		"alias": ["Ladislaus Sunthaym"],
+		"iri": "http://www.wikidata.org/entity/Q1563721",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1440"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1513"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	}
+    
+}

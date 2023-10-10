@@ -1,0 +1,253 @@
+{
+    "Iacobus Angeli de Scarperia": {
+		"name": "Iacobus Angeli de Scarperia",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/iacobus-angeli-de-scarperia-n-1360-ca-m-1410-1411-author/23445",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1360"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1410"
+                    },
+                    "dataFine": {
+                        "data": "1411"
+                    }
+                }
+            }
+        }
+	},
+    "Isidorus Hispalensis episcopus": {
+		"name": "Isidorus Hispalensis episcopus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/isidorus-hispalensis-episcopus-n-560-ca-m-4-4-636-author/19204",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "560"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "04-04-636"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Franciscus de Albertinis": {
+		"name": "Franciscus de Albertinis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/franciscus-de-albertinis-m-1517-1521-author/22574",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": ""
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1517"
+                    },
+                    "dataFine": {
+                        "data": "1521"
+                    }
+                }
+            }
+        }
+	},
+    "Zenobius Acciaiolus": {
+		"name": "Zenobius Acciaiolus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/zenobius-acciaiolus-n-25-5-1461-m-27-7-1519-author/23157",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "25-05-1461"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "27-07-1519"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Honorius Augustodunensis": {
+		"name": "Honorius Augustodunensis",
+		"alias": ["Honorius Augustodunensis presbyter et scholasticus"],
+		"irim": "http://www.mirabileweb.it/author/honorius-augustodunensis-presbyter-et-scholasticus-author/19217",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1080"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": true,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1153"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Hrabanus Maurus": {
+		"name": "Hrabanus Maurus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/hrabanus-maurus-n-780-ca-m-4-2-856-author/19184",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "780"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "04-02-856"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Lambertus Audomarensis canonicus": {
+		"name": "Lambertus Audomarensis canonicus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/lambertus-audomarensis-canonicus-fl-1090-1120-author/19223",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1090"
+                },
+                "dataFine": {
+                    "data": "1120"
+                }
+            }
+        }
+	},
+    "Guido de Basochis": {
+		"name": "Guido de Basochis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/guido-de-basochis-n-ante-1146-m-1203-author/20242",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": true,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1146"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1203"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	}
+        
+}

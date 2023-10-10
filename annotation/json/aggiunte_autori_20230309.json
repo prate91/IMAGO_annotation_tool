@@ -1,0 +1,107 @@
+{
+    "Iohannes Caballini de Cerronibus": {
+		"name": "Iohannes Caballini de Cerronibus",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/iohannes-caballini-de-cerronibus-v-1325-1349-author/23044",
+		"datazione":{
+			"vescovo":{
+				"incertezza": false,
+				"post": false,
+				"ante": false,
+				"secolo": false,
+				"dataInizio": {
+					"data": "1325"
+				},
+				"dataFine": {
+					"data": "1349"
+				}
+			}
+		}
+	},
+    "Nicolaus Signorilis": {
+		"name": "Nicolaus Signorilis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/nicolaus-signorilis-fl-1425-author/22290",
+        "datazione":{
+            "floruit":{
+                "incertezza": false,
+                "post": false,
+                "ante": false,
+                "secolo": false,
+                "dataInizio": {
+                    "data": "1425"
+                },
+                "dataFine": {
+                    "data": ""
+                }
+            }
+        }
+	},
+    "Mapheus Vegius Laudensis": {
+		"name": "Mapheus Vegius Laudensis",
+		"alias": [],
+		"irim": "http://www.mirabileweb.it/author/mapheus-vegius-laudensis-n-1407-m-29-6-1458-author/22727",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1407"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "29-06-1458"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	},
+    "Bentius Alexandrinus": {
+		"name": "Bentius Alexandrinus",
+		"alias": ["Bentius Alexandrinus cancellarius"],
+		"irim": "http://www.mirabileweb.it/author/bentius-alexandrinus-cancellarius-n-1270-ca-m-1337-author/21848",
+        "datazione":{
+            "vita":{
+                "dataNascita": {
+                    "incertezza": true,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1270"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                },
+                "dataMorte": {
+                    "incertezza": false,
+                    "post": false,
+                    "ante": false,
+                    "secolo": false,
+                    "dataInizio": {
+                        "data": "1337"
+                    },
+                    "dataFine": {
+                        "data": ""
+                    }
+                }
+            }
+        }
+	}
+    
+}

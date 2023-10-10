@@ -1,0 +1,82 @@
+{
+    "Cosmographia": {
+        "author": "Iacobus Angeli de Scarperia",
+        "irim": "http://www.mirabileweb.it/title/cosmographia-iacobus-angeli-de-scarperia-n-1360-ca-title/4154",
+        "title": "Cosmographia",
+        "alias": [""],
+        "owner":"sara.crea"
+    },
+    "Etymologiarum libri XX": {
+        "author": "Isidorus Hispalensis episcopus",
+        "irim": "http://www.mirabileweb.it/title/etymologiarum-libri-xx-isidorus-hispalensis-episco-title/3783",
+        "title": "Etymologiarum libri XX",
+        "alias": ["Originum libri XX"],
+        "owner":"sara.crea"
+    },
+    "Opusculum de mirabilibus novae et veteris urbis Romae": {
+        "author": "Franciscus de Albertinis",
+        "irim": "http://www.mirabileweb.it/title/opusculum-de-mirabilibus-novae-et-veteris-urbis-ro-title/4236",
+        "title": "Opusculum de mirabilibus novae et veteris urbis Romae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Septem mirabilia orbis et urbis Romae et Florentinae civitatis": {
+        "author": "Franciscus de Albertinis",
+        "irim": "http://www.mirabileweb.it/title/septem-mirabilia-orbis-et-urbis-romae-et-florentin-title/119167",
+        "title": "Septem mirabilia orbis et urbis Romae et Florentinae civitatis",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "De bello Neapolitano": {
+        "author": "Ioannes Iovianus Pontanus",
+        "irim": "http://www.mirabileweb.it/title/de-bello-neapolitano-iohannes-iovianus-pontanus-n--title/5305",
+        "title": "De bello Neapolitano",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Oratio de laudibus urbis Neapolis": {
+        "author": "Zenobius Acciaiolus",
+        "irim": "http://www.mirabileweb.it/title/oratio-de-laudibus-urbis-neapolis-zenobius-acciaio-title/191541",
+        "title": "Oratio de laudibus urbis Neapolis",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Oratio de laudibus urbis Romae": {
+        "author": "Zenobius Acciaiolus",
+        "irim": "http://www.mirabileweb.it/title/oratio-de-laudibus-urbis-romae-zenobius-acciaiolus-title/199597",
+        "title": "Oratio de laudibus urbis Romae",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Imago mundi": {
+        "author": "Honorius Augustodunensis",
+        "irim": "http://www.mirabileweb.it/title/imago-mundi-honorius-augustodunensis-presbyter-et--title/3444",
+        "title": "Imago mundi",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "De rerum naturis": {
+        "author": "Hrabanus Maurus",
+        "irim": "http://www.mirabileweb.it/title/de-rerum-naturis-hrabanus-maurus-n-780-ca-m-4-2-85-title/5211",
+        "title": "De rerum naturis",
+        "alias": ["De universo", "una cum epistolis praefatoriis ad Hemmonem episcopum et Ludovicum Germanicum"],
+        "owner":"sara.crea"
+    },
+    "Liber floridus": {
+        "author": "Lambertus Audomarensis canonicus",
+        "irim": "http://www.mirabileweb.it/title/liber-floridus-lambertus-audomarensis-canonicus-fl-title/5759",
+        "title": "Liber floridus",
+        "alias": [],
+        "owner":"sara.crea"
+    },
+    "Libellus de regionibus mundi": {
+        "author": "Guido de Basochis",
+        "irim": "http://www.mirabileweb.it/title/libellus-de-regionibus-mundi-guido-de-basochis-n-a-title/6244",
+        "title": "Libellus de regionibus mundi",
+        "alias": [],
+        "owner":"sara.crea"
+    }
+    
+}
+
+

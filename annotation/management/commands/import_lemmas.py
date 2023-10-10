@@ -60,11 +60,11 @@ from annotation.services import *
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # JSON file paths
-WORK_PATH = os.path.join(BASE_DIR, 'json/works.json') #'json/outputWorksNew.json'
-AUTHOR_PATH = os.path.join(BASE_DIR, 'json/authors.json') #'json/outputAuthorsFinalDate.json'
+WORK_PATH = os.path.join(BASE_DIR, 'json/aggiunte_opere_20230522.json') #'json/outputWorksNew.json'
+AUTHOR_PATH = os.path.join(BASE_DIR, 'json/aggiunte_autori_20230522.json') #'json/outputAuthorsFinalDate.json'
 IMAGO_BASE_IRI = 'https://imagoarchive.it/resource/'
 
-michela_test = ['http://www.mirabileweb.it/title/rerum-suo-tempore-gestarum-commentaria-leonardus-b-title/4179','http://www.mirabileweb.it/title/de-situ-iapygiae-title/13073','http://www.mirabileweb.it/title/descriptio-marchiae-anconitanae-title/172871']
+michela_test = []# ['http://www.mirabileweb.it/title/rerum-suo-tempore-gestarum-commentaria-leonardus-b-title/4179','http://www.mirabileweb.it/title/de-situ-iapygiae-title/13073','http://www.mirabileweb.it/title/descriptio-marchiae-anconitanae-title/172871']
 
 
 l = Lemma.objects
@@ -249,8 +249,7 @@ class Command(BaseCommand):
         print('   Importing lemmas... ', end='')
         new_lemma_count = 0
         old_lemma_count = 0
-        users = ["prate"]
-        
+        # users = ["prate"]
         
         try:
             # Load sources from JSON file
@@ -264,6 +263,11 @@ class Command(BaseCommand):
                     # iri = lemma['iri'].strip()
                     title = lemma['title'].strip()
                     author_name = lemma['author'].strip()
+                    try:
+                        owner = lemma['owner']
+                    except:
+                        owner = "prate"
+                    
                     iri_to_slugify = author_name + title
                     # author_name = author_name.title()
                     try:
@@ -342,9 +346,11 @@ class Command(BaseCommand):
 
                         # print(author_iri + "-------------------------------")
                         # source_json = {'iri': iri, 'title': title, 'area': area_iri, 'author': author_iri}
-                        owner = random.choice(users)
-                        if iri in michela_test:
-                            owner = 'michela'
+                        # owner = random.choice(users)
+                    
+                        # if iri in michela_test:
+                            # owner = 'michela'
+                        
                         lemma_json ={"lemma" : {"autore": author_iri, "opera": iri, "owner": owner, "manoscritti": [], "edizioniStampa": [], "generi": [], "toponimi": []}}
                         # print(lemma_json)
                         new_lemma = Lemma(data=lemma_json)

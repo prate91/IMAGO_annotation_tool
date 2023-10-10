@@ -77,6 +77,9 @@ urlpatterns = [
 
     # save abstract
     path('lemma/<int:author_id>/<int:work_id>/save_abstract/', views.save_abstract, name='save_abstract'),
+    
+    # save review
+    path('lemma/<int:author_id>/<int:work_id>/save_review/', views.save_review, name='save_review'),
 
     # save author
     path('lemma/<int:author_id>/<int:work_id>/save_author/', views.save_author, name='save_author'),

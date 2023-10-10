@@ -14,7 +14,12 @@
   
     {% for work in works_list %}
     <tr>
-        <td><a href="../lemma/{{ author_id }}/{{ work.id }}">{{ work.titolo }}</a></td>
+        <td><a href="../lemma/{{ author_id }}/{{ work.id }}">{{ work.titolo }}</a>
+            {% if work.review %}
+            {% load static %}
+            <span><img src="{% static 'imago/img/review.png' %}" style="color: green;"></span>
+            {% endif %}
+        </td>
     </tr>
     {% endfor %}
    

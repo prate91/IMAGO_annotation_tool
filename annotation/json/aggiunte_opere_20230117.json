@@ -1,0 +1,26 @@
+{
+    "Liber de mensura orbis terrarum": {
+        "author": "Dicuil Hibernicus",
+        "irim": "http://www.mirabileweb.it/title/liber-de-mensura-orbis-terrarum-dicuil-hibernicus--title/4066",
+        "title": "Liber de mensura orbis terrarum",
+        "alias": ["Liber de mensura orbis terrae"]
+    },
+    "Compilatio geographica et historica Egertoniana": {
+        "author": "Guidus Pisanus",
+        "irim": "http://www.mirabileweb.it/title/compilatio-geographica-et-historica-egertoniana-gu-title/133626",
+        "title": "Compilatio geographica et historica Egertoniana",
+        "alias": []
+    },
+    "Breve commemoratorii de illis casis Dei vel monasteriis qui sunt in sancta Hierusalem vel in circuitu eius": {
+        "author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/breve-commemoratorii-de-illis-casis-dei-vel-monast-title/182596",
+        "title": "Breve commemoratorii de illis casis Dei vel monasteriis qui sunt in sancta Hierusalem vel in circuitu eius",
+        "alias": []
+    },
+    "Notitia ecclesiarum urbis Romae": {
+		"author": "Opus sine auctore",
+        "irim": "http://www.mirabileweb.it/title/notitia-ecclesiarum-urbis-romae-title/172194",
+		"title": "Notitia ecclesiarum urbis Romae",
+		"alias": []
+	}
+}
