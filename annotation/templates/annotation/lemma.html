@@ -432,6 +432,37 @@
       
         </div>
         </div>
+        {% else %}
+        <div id="review-group" class="form-group row" hidden>
+            <label class="col-sm-3 col-form-label font-weight-bold">Revisione</label>
+            <div class="col-sm-9">
+                {% if data.lemma.review %}
+                    <button type="button" id="delete-review" class="btn btn-success btn-sm">
+                        Revisionato
+                    </button>
+                    <button type="button" id="insert-review" class="btn btn-danger btn-sm" hidden>
+                        Da revisionare
+                    </button>
+                {% else %}
+                <button type="button" id="delete-review" class="btn btn-success btn-sm" hidden>
+                    Revisionato
+                </button>
+                <button type="button" id="insert-review" class="btn btn-danger btn-sm">
+                    Da revisionare
+                </button>
+                {% endif %}
+                <form id="id_review_form" class="form-group" hidden>
+                    {% csrf_token %}
+                    {% for field in review_form %}
+                        <div class="form-field col-sm-9">
+                            {{ field }}
+                        </div>
+                        
+                    {% endfor %}
+                </form>
+          
+            </div>
+            </div>
         {% endif %}
 
 
