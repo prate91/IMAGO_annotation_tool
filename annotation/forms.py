@@ -65,17 +65,20 @@ WORK_TYPE = (
 ECDOTIC_TYPOLOGY = (
     ("", "---------"),
     ("EDIZIONE CRITICA", "Edizione critica"),
-    ("EDIZIONE CRITICA DIPLOMATICA", "Edizione critica diplomatica"),
     ("EDIZIONE CRITICA COMMENTATA", "Edizione critica commentata"),
     ("EDIZIONE CRITICA COMMENTATA CON TRADUZIONE", "Edizione critica commentata con traduzione"),
-    ("EDIZIONE CRITICA SEMI-DIPLOMATICA O INTERPRETATIVA", "Edizione critica semi-diplomatica o interpretativa"),
+    ("EDIZIONE SEMIDIPLOMATICA O INTERPRETATIVA", "Edizione semidiplomatica o interpretativa"),
     ("EDIZIONE CRITICA CON TRADUZIONE", "Edizione critica con traduzione"),
+    ("EDIZIONE DIPLOMATICA", "Edizione diplomatica"),
+    ("EDIZIONE COMMENTATA", "Edizione commentata"),
+    ("EDIZIONE CON TRADUZIONE", "Edizione con traduzione"),
+    ("EDIZIONE COMMENTATA CON TRADUZIONE", "Edizione commentata con traduzione"),
 )
 
 # Edition choices
 EDITION = (
     ("", "---------"),
-    ("PRIMA EDIZIONE", "Prima edizione"),
+    ("PRIMA EDIZIONE / EDITIO PRINCEPS", "Prima edizione / editio princeps"),
     ("RISTAMPA", "Ristampa"),
     ("FACSIMILE", "Facsimile"),
     ("ANASTATICA", "Anastatica"),

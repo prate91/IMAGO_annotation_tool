@@ -9,6 +9,8 @@ from django.core import serializers
 from django.core.management.base import BaseCommand
 from annotation.models import *
 from django.contrib.auth.models import User
+from . import export_libraries, export_places
+from tqdm import tqdm
 
 
 # Base directory of Annotation app
@@ -36,12 +38,14 @@ def make_country_query(iri):
     qid = iri.split('/entity/')[1] # Wikidata ID starting with Q
 
     # Wikidata query
-    wd_query = f'\nSELECT ?item ?itemLabel \n\
+    wd_query = f'\nSELECT ?item ?label ?coordinates \n\
                 WHERE {{ hint:Query hint:optimizer "None". \n\
                     BIND (wd:{qid} AS ?item) \n\
-                    SERVICE wikibase:label {{ \n\
-                        bd:serviceParam wikibase:language "[AUTO_LANGUAGE],it,la,en" . \n\
+                    ?item rdfs:label ?label . \n\
+                    OPTIONAL {{ \n\
+                        ?item wdt:P625 ?coordinates . \n\
                     }} \n\
+                    filter(lang(?label) = "it" || lang(?label) = "en" || lang(?label) = "la" ) \n\
                 }}'
 
     # TODO import aliases for author
@@ -50,8 +54,35 @@ def make_country_query(iri):
     # Run Wikidata query
     query_results = wikidata_request(wd_query)
 
+    englishName = ''
+    italianName = ''
+    latinName = ''
+    coordinates = ''
     if query_results:
-        data = {'iri': iri, 'name': query_results[0]['itemLabel']['value']}
+        for query_result in query_results:
+            try:
+                coordinates = query_result['coordinates']['value']
+            except:
+                coordinates = ''
+            try:
+                if query_result['label']['xml:lang'] == 'en':
+                    englishName = query_result['label']['value']
+            except:
+                englishName = ''
+            try:
+                if query_result['label']['xml:lang'] == 'it':
+                    italianName = query_result['label']['value']
+            except:
+                italianName = ''
+            try:
+                if query_result['label']['xml:lang'] == 'la':
+                    latinName = query_result['label']['value']
+            except:
+                latinName = ''
+        
+    
+        data = {'iri': iri, 'englishName' : englishName, 'italianName' : italianName, 'latinName' : latinName, 'coordinates' : coordinates}
+        # data = {'iri': iri, 'name': query_results[0]['itemLabel']['value']}
 
         return data
 
@@ -84,7 +115,8 @@ class Command(BaseCommand):
                 all_lemmas = [] # empty array for the finals lemmas
                 
                 # for every lemma
-                for lemma in lemmas:
+                # for lemma in lemmas:
+                for lemma in tqdm(lemmas):
                     l_json = {} # new empty dict for lemma
                     pk = lemma.pk # id of the lemma
                     json_lemma = lemma.data['lemma'] # get the json of the lemma from db
@@ -97,6 +129,14 @@ class Command(BaseCommand):
                         abstract = json_lemma['abstract'] 
                     except:
                         abstract = ""
+                    
+                    # REVIEW
+                    # If there is a review get the review, 
+                    # otherwise the review is empty
+                    try: 
+                        review = json_lemma['review'] 
+                    except:
+                        review = False
                     
 
                     # AUTHOR
@@ -197,10 +237,11 @@ class Command(BaseCommand):
                         toponym_output_dict = {}
                         try:
                             toponym_object = Place.objects.get(data__iri=toponym_iri)
-                            toponym_output_dict = toponym_object.data
+                            toponym_output_dict = export_places.makePlaceJSON(toponym_object.data['iri'], toponym_object.data['name'])
                             if('country' in toponym_output_dict):
                                 if(toponym_output_dict['country']!=""):
-                                    country = make_country_query(toponym_output_dict['country'])
+                                    if type(toponym_output_dict['country']) != dict: 
+                                        country = make_country_query(toponym_output_dict['country'])
                             
                         except Place.DoesNotExist:
                             toponym_output_dict['iri'] = toponym_iri
@@ -208,7 +249,7 @@ class Command(BaseCommand):
                         toponym_output_dict['country'] = country
                         toponyms_output_list.append(toponym_output_dict)
 
-
+                    
 
                     manuscripts_list = json_lemma['manoscritti']
                     manuscripts_output_list = []
@@ -218,18 +259,41 @@ class Command(BaseCommand):
                         library_output_dict = {}
                         try:
                             library_object = Library.objects.get(data__iri=library_iri)
-                            library_output_dict = library_object.data
+                            # print(library_object.data)
+                            # print(export_libraries.makeLibraryJSON(library_object.data['iri'], library_object.data['name']))
+                            library_output_dict = export_libraries.makeLibraryJSON(library_object.data['iri'], library_object.data['name'])
+                            if(library_iri=='http://www.wikidata.org/entity/Q536580'):
+                                print(library_output_dict)
                         except Library.DoesNotExist:
                             library_output_dict['iri'] = library_iri
                         
-
+                        # Città del vaticano = Q237
+                        # Biblioteca apostolica vaticana = Q213678
+                        # Roma Q220
                         library_place_iri = manuscript['luogoBiblioteca']
+                        
+                        
+                        if library_iri == "http://www.wikidata.org/entity/Q213678":
+                            if library_place_iri ==  "http://www.wikidata.org/entity/Q220":
+                                library_place_iri = "http://www.wikidata.org/entity/Q237"
+                        
+                        if library_iri == "http://www.wikidata.org/entity/Q85692455":
+                            if library_place_iri ==  "http://www.wikidata.org/entity/Q1001999":
+                                library_place_iri = "http://www.wikidata.org/entity/Q5836"
+                        
+                        if library_iri == "http://www.wikidata.org/entity/Q11909310":
+                            if library_place_iri ==  "http://www.wikidata.org/entity/Q314745":
+                                library_place_iri = "http://www.wikidata.org/entity/Q15088"       
+                                
                         library_place_ouput_dict = {}
                         try:
                             library_place_object = Place.objects.get(data__iri=library_place_iri)
-                            library_place_ouput_dict = library_place_object.data
+                            library_place_ouput_dict = export_places.makePlaceJSON(library_place_object.data['iri'], library_place_object.data['name'])
+                            # print(library_place_ouput_dict)
                             if('country' in library_place_ouput_dict):
-                                country = make_country_query(library_place_ouput_dict['country'])
+                                # print(library_place_ouput_dict['country'])
+                                if type(library_place_ouput_dict['country']) != dict: 
+                                    country = make_country_query(library_place_ouput_dict['country'])
                             # print(biblioteca['place'])
                         except Place.DoesNotExist:
                             library_place_ouput_dict['iri'] = library_place_iri
@@ -290,7 +354,6 @@ class Command(BaseCommand):
                         manuscript_output_dict['urlDescription'] = manuscript['urlDescrizione']
                         manuscript_output_dict['dateString'] = manuscript['datazioneString']
                         
-                        
                         manuscripts_output_list.append(manuscript_output_dict)
 
                     print_editions_list = json_lemma['edizioniStampa']
@@ -302,10 +365,11 @@ class Command(BaseCommand):
                         place_output_dict = {}
                         try:
                             place_object = Place.objects.get(data__iri=place_iri)
-                            place_output_dict = place_object.data
+                            place_output_dict = export_places.makePlaceJSON(place_object.data['iri'], place_object.data['name'])
                             if('country' in place_output_dict):
-                                country = make_country_query(place_output_dict['country'])
-                                place_output_dict['country'] = country
+                                if type(place_output_dict['country']) != dict: 
+                                    country = make_country_query(place_output_dict['country'])
+                                    place_output_dict['country'] = country
                         
                         except Place.DoesNotExist:
                             place_output_dict = {}
@@ -371,11 +435,14 @@ class Command(BaseCommand):
 
                         print_editions_output_list.append(print_edition_dict)
 
+                
+
                     lemma_output = {}
 
                     lemma_output['author'] = author_output_dict
                     lemma_output['work'] = work_output_dict
                     lemma_output['abstract'] = abstract
+                    lemma_output['review'] = review
                     lemma_output['genres'] = genres_output_list
                     lemma_output['places'] = toponyms_output_list
                     lemma_output['manuscripts'] = manuscripts_output_list
@@ -383,8 +450,10 @@ class Command(BaseCommand):
 
                     l_json['id'] = pk
                     l_json['lemma'] = lemma_output 
-
-                    all_lemmas.append(l_json)
+                    
+                    #Append the lemma only if exist at least a manuscript or a print edition
+                    if (manuscripts_output_list or print_editions_output_list) :
+                        all_lemmas.append(l_json)
                     
                     # print(json_lemma)
                     #  Write notes to JSON file

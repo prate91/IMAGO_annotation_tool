@@ -60,8 +60,8 @@ from annotation.services import *
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # JSON file paths
-WORK_PATH = os.path.join(BASE_DIR, 'json/aggiunte_opere_20230522.json') #'json/outputWorksNew.json'
-AUTHOR_PATH = os.path.join(BASE_DIR, 'json/aggiunte_autori_20230522.json') #'json/outputAuthorsFinalDate.json'
+WORK_PATH = os.path.join(BASE_DIR, 'json/aggiunte_opere_20240220.json') #'json/outputWorksNew.json'
+AUTHOR_PATH = os.path.join(BASE_DIR, 'json/aggiunte_autori_20240220.json') #'json/outputAuthorsFinalDate.json'
 IMAGO_BASE_IRI = 'https://imagoarchive.it/resource/'
 
 michela_test = []# ['http://www.mirabileweb.it/title/rerum-suo-tempore-gestarum-commentaria-leonardus-b-title/4179','http://www.mirabileweb.it/title/de-situ-iapygiae-title/13073','http://www.mirabileweb.it/title/descriptio-marchiae-anconitanae-title/172871']
