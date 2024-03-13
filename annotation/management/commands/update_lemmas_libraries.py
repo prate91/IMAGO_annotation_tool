@@ -30,12 +30,12 @@ b = Library.objects
 p = Place.objects
 
 doubt_libraries = {
-    'https://imagoarchive.it/resource/biblioteca-statale-berlinese-patrimonio-culturale-prussiano' : 'http://www.wikidata.org/entity/Q170109',
     'http://www.wikidata.org/entity/Q631375' : '',
     'https://imagoarchive.it/resource/den-haag-sammlung-schinkel' : ''
 }
 
 correction_libraries = {
+    'https://imagoarchive.it/resource/biblioteca-statale-berlinese-patrimonio-culturale-prussiano' : 'http://www.wikidata.org/entity/Q170109',
     'http://www.wikidata.org/entity/Q683842' : 'http://www.wikidata.org/entity/Q81164649',
     'http://www.wikidata.org/entity/Q81165027' : 'http://www.wikidata.org/entity/Q856559',
     'http://www.wikidata.org/entity/Q46996155' : 'http://www.wikidata.org/entity/Q20755622',

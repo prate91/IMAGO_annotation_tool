@@ -262,8 +262,8 @@ class Command(BaseCommand):
                             # print(library_object.data)
                             # print(export_libraries.makeLibraryJSON(library_object.data['iri'], library_object.data['name']))
                             library_output_dict = export_libraries.makeLibraryJSON(library_object.data['iri'], library_object.data['name'])
-                            if(library_iri=='http://www.wikidata.org/entity/Q536580'):
-                                print(library_output_dict)
+                            # if(library_iri=='http://www.wikidata.org/entity/Q536580'):
+                            #     print(library_output_dict)
                         except Library.DoesNotExist:
                             library_output_dict['iri'] = library_iri
                         
