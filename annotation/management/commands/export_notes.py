@@ -452,8 +452,8 @@ class Command(BaseCommand):
                     l_json['lemma'] = lemma_output 
                     
                     #Append the lemma only if exist at least a manuscript or a print edition
-                    if (manuscripts_output_list or print_editions_output_list) :
-                        all_lemmas.append(l_json)
+                    # if (manuscripts_output_list or print_editions_output_list) :
+                    all_lemmas.append(l_json)
                     
                     # print(json_lemma)
                     #  Write notes to JSON file
