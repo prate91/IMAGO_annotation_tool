@@ -129,6 +129,16 @@ class Command(BaseCommand):
                     lemma_pk = lemma.pk # id of the lemma
                     json_lemma = lemma.data # get the json of the lemma from db
                     
+                    new_toponym_list = []
+                    toponym_list = json_lemma['lemma']['toponimi']
+                    for toponym in toponym_list:
+                        if toponym == 'http://www.wikidata.org/entity/Q1241701':
+                            toponym = 'http://www.wikidata.org/entity/Q29'
+                            # print(toponym)
+                        new_toponym_list.append(toponym)
+                        
+                    json_lemma['lemma']['toponimi'] = new_toponym_list
+                            
 
                     manuscript_list = json_lemma['lemma']['manoscritti']
                     manuscript_output_list = []

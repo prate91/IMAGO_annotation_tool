@@ -113,6 +113,9 @@ class Command(BaseCommand):
                 # Notes to be exported
                 lemmas = l.all() # get all the lemmas in db
                 all_lemmas = [] # empty array for the finals lemmas
+                lemma_isidoro = {}
+                pk_isidoro = ""
+                count_isidoro = 1
                 
                 # for every lemma
                 # for lemma in lemmas:
@@ -121,7 +124,7 @@ class Command(BaseCommand):
                     pk = lemma.pk # id of the lemma
                     json_lemma = lemma.data['lemma'] # get the json of the lemma from db
                     
-                    
+                        
                     # ABSTRACT
                     # If there is an abstract get the abstract, 
                     # otherwise the abstract is empty
@@ -138,7 +141,8 @@ class Command(BaseCommand):
                     except:
                         review = False
                     
-
+                    
+                        
                     # AUTHOR
                     author_output_dict = {}
                     try:
@@ -435,26 +439,47 @@ class Command(BaseCommand):
 
                         print_editions_output_list.append(print_edition_dict)
 
-                
+                    if(json_lemma['autore']=='http://www.mirabileweb.it/author/isidorus-hispalensis-episcopus-n-560-ca-m-4-4-636-author/19204'):
+                        if(json_lemma['opera']=='http://www.mirabileweb.it/title/etymologiarum-libri-xx-isidorus-hispalensis-episco-title/3783'):
+                            lemma_isidoro['author'] = author_output_dict
+                            lemma_isidoro['work'] = work_output_dict
+                            lemma_isidoro['abstract'] = abstract
+                            lemma_isidoro['review'] = review
+                            lemma_isidoro['genres'] = genres_output_list
+                            lemma_isidoro['places'] = toponyms_output_list
+                            lemma_isidoro['manuscripts'] = manuscripts_output_list
+                            lemma_isidoro['printEditions'] = print_editions_output_list
+                            pk_isidoro = pk
+                        else:
+                            lista = lemma_isidoro['manuscripts']
+                            lemma_isidoro['manuscripts'] = lista + manuscripts_output_list
+                        
+                        count_isidoro=count_isidoro+1
+                        if(count_isidoro==4):
+                            l_json['id'] = pk_isidoro
+                            l_json['lemma'] = lemma_isidoro 
+                            # print(l_json)
+                            all_lemmas.append(l_json)
 
-                    lemma_output = {}
+                    else:
+                        lemma_output = {}
 
-                    lemma_output['author'] = author_output_dict
-                    lemma_output['work'] = work_output_dict
-                    lemma_output['abstract'] = abstract
-                    lemma_output['review'] = review
-                    lemma_output['genres'] = genres_output_list
-                    lemma_output['places'] = toponyms_output_list
-                    lemma_output['manuscripts'] = manuscripts_output_list
-                    lemma_output['printEditions'] = print_editions_output_list
+                        lemma_output['author'] = author_output_dict
+                        lemma_output['work'] = work_output_dict
+                        lemma_output['abstract'] = abstract
+                        lemma_output['review'] = review
+                        lemma_output['genres'] = genres_output_list
+                        lemma_output['places'] = toponyms_output_list
+                        lemma_output['manuscripts'] = manuscripts_output_list
+                        lemma_output['printEditions'] = print_editions_output_list
 
-                    l_json['id'] = pk
-                    l_json['lemma'] = lemma_output 
+                        l_json['id'] = pk
+                        l_json['lemma'] = lemma_output 
                     
-                    #Append the lemma only if exist at least a manuscript or a print edition
-                    # if (manuscripts_output_list or print_editions_output_list) :
-                    all_lemmas.append(l_json)
-                    
+                        #Append the lemma only if exist at least a manuscript or a print edition
+                        # if (manuscripts_output_list or print_editions_output_list) :
+                        all_lemmas.append(l_json)
+                        
                     # print(json_lemma)
                     #  Write notes to JSON file
                     with open(opt_path, 'w') as note_file:
